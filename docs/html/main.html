@@ -52,6 +52,7 @@
           <th>Work</th>
           <th>Author</th>
           <th>Hojo</th>
+          <th>Image Flag</th>
         </tr>
       </thead>
       <tbody id="resourceListBody">
@@ -146,6 +147,8 @@
     }
     query += " ?hojoUri rdfs:label ?hojo . ";
 
+    query += " optional {?i dc11:source ?s . } "
+
     query += " } ";
 
     $.ajax({
@@ -189,6 +192,13 @@
         tr.append(td);
         td.append(obj.hojo.value)
 
+
+        td = $("<td>");
+        tr.append(td);
+        if(obj.i){
+          td.append("True")
+        }
+
       }
 
       // DataTable
@@ -215,8 +225,8 @@
     // Ajaxリクエストが成功・失敗どちらでも発動
     .always((data) => {
       $("#loading").empty()
-  });
-}
+    });
+  }
 </script>
 </body>
 </html>

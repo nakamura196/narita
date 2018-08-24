@@ -100,7 +100,7 @@
     jQuery.ajaxSetup({
       cache: false
     });
-
+    
     search()
 
   });
@@ -147,7 +147,7 @@
 
         var a = $("<a>");
         td.append(a)
-        a.attr("href", "../mirador/?manifestUri="+obj.manifestUri.value+"&canvasUri="+obj.canvas.value+"&resourceUri="+obj.p.value)
+        a.attr("href", "../mirador/?manifestUri="+obj.manifestUri.value+"&canvasUri="+obj.canvas.value+"&resourceUri="+obj.i.value)
 
         var img = $("<img>")
         a.append(img)
@@ -174,7 +174,7 @@
       // DataTable
       var table = $('#table').DataTable({
         "iDisplayLength": 25,
-        "order": [[1, "asc"]]
+        "order": [[4, "asc"]]
 
       });
 

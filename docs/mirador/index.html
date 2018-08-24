@@ -42,34 +42,36 @@
 
   </header>
 
-  <div class="container mb-5">
+  <div class="container-fluid mb-5">
 
     <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-      <h1 class="display-4" id="title"></h1>
+      <h3 id="title"></h3>
     </div>
 
     <div class="text-center" id="loading">
       <img src="https://loading.io/spinners/balls/index.circle-slack-loading-icon.gif"/>
     </div>
 
-    <table class="table table-hover" id="table">
-      <thead id="thead">
-        <tr>
-          <th></th>
-          <th>Annotation</th>
-          <th>Page</th>
-          <th>X</th>
-        </tr>
-      </thead>
-      <tbody id="resourceListBody">
-      </tbody>
-    </table>
+    <div class="row">
+      <div class="col">
+        <table class="table table-hover" id="table">
+          <thead id="thead">
+            <tr>
+              <th></th>
+              <th>Annotation</th>
+              <th>Page</th>
+              <th>X</th>
+            </tr>
+          </thead>
+          <tbody id="resourceListBody">
+          </tbody>
+        </table>
+      </div>
 
-    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-      <h3 id="title"></h3>
+      <div class="col">
+        <div id="viewer"></div>
+      </div>
     </div>
-
-    <div id="viewer"></div>
 
   </div>
 
@@ -98,11 +100,8 @@
   var manifestUri = vars["manifestUri"]
 
   var resourceUri = vars["resourceUri"]
-  $("#title").text(resourceUri.split("/p/")[1].split("-")[0])
 
   $(function(){
-
-
 
     search()
 
@@ -157,9 +156,14 @@
     var query = " prefix ex: <http://example.org/property/> ";
     query += " select distinct * ";
     query += " where { ";
-    query += " ?a ex:annotation ?resourceUri . ";
-    query += " filter (?resourceUri = <"+resourceUri+"> ) . ";
-    query += " ?resourceUri ex:page ?page . ";
+    query += " ?p ex:isPartOf ?i . ";
+    query += " filter (?i = <"+resourceUri+"> ) . ";
+    query += " ?a ex:annotation ?p . ";
+    query += " ?p ex:page ?page . ";
+    query += " ?p ex:canvasUri ?canvas . ";
+    query += " ?i dc11:source ?diff_work . ";
+    query += " ?diff_work ex:work ?work . ";
+    query += " ?work rdfs:label ?label . ";
     query += " ?a ex:selector ?selector . ";
     query += " ?a ex:x ?x . ";
     query += " } ";
@@ -181,6 +185,10 @@
       for (var i = 0; i < result.length; i++) {
         var obj = result[i];
 
+        if(i == 0){
+          $("#title").text(obj.label.value)
+        }
+
         // Manifest
         var tr = $("<tr>");
         tbody.append(tr)
@@ -200,14 +208,17 @@
         tr.append(td)
         td.append(obj.x.value)
 
-        selectors[obj.a.value] = obj.selector.value.split("=")[1]
+        selector = {}
+        selectors[obj.a.value] = selector
+        selector.xywh = obj.selector.value.split("=")[1]
+        selector.canvas = obj.canvas.value
 
       }
 
       // DataTable
       var table = $('#table').DataTable({
         "iDisplayLength": 25,
-        "order": [[3, "desc"]]
+        "order": [[2, "asc"], [3, "desc"]]
 
       });
 
@@ -246,10 +257,14 @@
 
   function selectRow(data){
 
-    xywh = selectors[data[1]].split(",")
+    selector = selectors[data[1]]
+    xywh = selector.xywh.split(",")
 
-    miradorInstance.eventEmitter.publish('fitBounds', {'x': Number(xywh[0]), 'y': Number(xywh[1]),'width': Number(xywh[2]) / 2, 'height': Number(xywh[3]) / 2});
+    my = Number(xywh[3]) * 0.2
 
+    miradorInstance.eventEmitter.publish('SET_CURRENT_CANVAS_ID', selector.canvas);
+    // miradorInstance.eventEmitter.publish('fitBounds', {'x': Number(xywh[0]), 'y': Number(xywh[1]) + my,'width': Number(xywh[2]), 'height': Number(xywh[3]) - my});
+    miradorInstance.eventEmitter.publish('fitBounds', {'x': Number(xywh[0]), 'y': Number(xywh[1]) + my,'width': Number(xywh[2]), 'height': Number(xywh[2])});
   }
 
 </script>
