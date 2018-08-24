@@ -14,6 +14,8 @@
 
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css"/>
 
+  <link rel="stylesheet" type="text/css" href="../assets/css/style.css"/>
+
   <title>LOD Applications</title>
 
 </head>
@@ -36,11 +38,11 @@
   <div class="container mt-5">
 
     <div class="pricing-header mx-auto text-center">
-      <h2>Works</h2>
+      <h2>Hojos</h2>
     </div>
 
     <div class="text-center" id="loading">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif"/>
+      <img src="https://loading.io/spinners/balls/index.circle-slack-loading-icon.gif"/>
     </div>
 
     <table class="table table-hover" id="table">
@@ -62,7 +64,7 @@
 
     <!--Copyright-->
     <div class="footer-copyright py-5">
-      Satoru Nakamura. Ketanro Narita. CC BY.
+      Satoru Nakamura. Kentaro Narita. CC BY.
     </div>
     <!--/.Copyright-->
 
@@ -148,7 +150,7 @@
       // DataTable
       var table = $('#table').DataTable({
         "iDisplayLength": 25,
-        "order": [[1, "asc"]]
+        "order": [[1, "asc"], [2, "asc"]]
 
       });
 
@@ -169,8 +171,8 @@
     // Ajaxリクエストが成功・失敗どちらでも発動
     .always((data) => {
       $("#loading").empty()
-  });
-}
+    });
+  }
 </script>
 </body>
 </html>

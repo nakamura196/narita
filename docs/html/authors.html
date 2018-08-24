@@ -38,7 +38,7 @@
   <div class="container mt-5">
 
     <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-      <h1 class="display-4">Authors</h1>
+      <h3>Authors</h3>
     </div>
 
     <div class="text-center" id="loading">
@@ -50,6 +50,7 @@
         <tr>
           <th></th>
           <th>Author</th>
+          <th>Image Flag</th>
         </tr>
       </thead>
       <tbody id="resourceListBody">
@@ -63,7 +64,7 @@
 
     <!--Copyright-->
     <div class="footer-copyright py-5">
-      Satoru Nakamura. Ketanro Narita. CC BY.
+      Satoru Nakamura. Kentaro Narita. CC BY.
     </div>
     <!--/.Copyright-->
 
@@ -101,12 +102,20 @@
   });
 
   function search() {
-    var query = " ";
-    query += " select distinct * ";
+    var query = " prefix ex: <http://example.org/property/> ";
+    query += " select distinct ?s ?label ?v ";
     query += " where { ";
 
     query += " ?s rdfs:label ?label . ";
     query += " ?s rdf:type <http://example.org/class/Author> . ";
+
+    //作品
+    query += " optional { " ;
+    query += " ?diff ex:author ?s . ";
+    query += " ?i ?v ?diff . ";
+    query += " filter (?v = dc11:source ) ";
+    query += " } ";
+
     query += " } ";
 
     $.ajax({
@@ -141,6 +150,13 @@
         td.append(a);
         a.append(label);
         a.attr("href", "main.html?authorUri="+obj.s.value);
+
+        td = $("<td>");
+        tr.append(td);
+
+        if(obj.v){
+          td.append("True")
+        }
 
       }
 

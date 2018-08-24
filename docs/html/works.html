@@ -14,6 +14,8 @@
 
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css"/>
 
+  <link rel="stylesheet" type="text/css" href="../assets/css/style.css"/>
+
   <title>LOD Applications</title>
 
 </head>
@@ -40,7 +42,7 @@
     </div>
 
     <div class="text-center" id="loading">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif"/>
+      <img src="https://loading.io/spinners/balls/index.circle-slack-loading-icon.gif"/>
     </div>
 
     <table class="table table-hover" id="table">
@@ -48,6 +50,7 @@
         <tr>
           <th></th>
           <th>Work</th>
+          <th>Image Flag</th>
         </tr>
       </thead>
       <tbody id="resourceListBody">
@@ -61,7 +64,7 @@
 
     <!--Copyright-->
     <div class="footer-copyright py-5">
-      Satoru Nakamura. Ketanro Narita. CC BY.
+      Satoru Nakamura. Kentaro Narita. CC BY.
     </div>
     <!--/.Copyright-->
 
@@ -92,14 +95,19 @@
 
   function search() {
     var query = " prefix ex: <http://example.org/property/> ";
-    query += " select distinct * ";
+    query += " select distinct ?s ?label ?v ";
     query += " where { ";
 
     query += " ?s rdf:type <http://example.org/class/Work> . ";
-
-
     //作品
     query += " ?s rdfs:label ?label . ";
+
+    //作品
+    query += " optional { " ;
+    query += " ?diff ex:work ?s . ";
+    query += " ?i ?v ?diff . ";
+    query += " filter (?v = dc11:source ) ";
+    query += " } ";
 
     query += " } ";
 
@@ -136,6 +144,13 @@
         a.append(label);
         a.attr("href", "main.html?workUri="+obj.s.value);
 
+        td = $("<td>");
+        tr.append(td);
+
+        if(obj.v){
+          td.append("True")
+        }
+
       }
 
       // DataTable
@@ -162,8 +177,8 @@
     // Ajaxリクエストが成功・失敗どちらでも発動
     .always((data) => {
       $("#loading").empty()
-  });
-}
+    });
+  }
 </script>
 </body>
 </html>
