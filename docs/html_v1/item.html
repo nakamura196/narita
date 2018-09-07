@@ -38,24 +38,21 @@
   <div class="container mt-5">
 
     <div class="pricing-header mx-auto text-center">
-      <h2>Individual Works</h2>
+      <h2>Item</h2>
     </div>
 
     <div class="text-center" id="loading">
       <img src="https://loading.io/spinners/balls/index.circle-slack-loading-icon.gif"/>
     </div>
 
-    <a id="compareBtn" class="btn btn-primary my-5">比較・Compare</a>   <span id="compareDifferentEditions"></span>
-
     <table class="table table-hover" id="table">
       <thead id="thead">
         <tr>
-          <th></th>
-          <th></th>
-          <th>作品・Work</th>
-          <th>版（法帖）・Edition</th>
-          <th>公開機関・Organization</th>
-          <th>Canvas</th>
+          <th>Thumbnail</th>
+          <th>Work</th>
+          <th>Hojo</th>
+          <th>Manifest</th>
+          <th>Page</th>
         </tr>
       </thead>
       <tbody id="resourceListBody">
@@ -97,16 +94,6 @@
   }
 
   var resourceUri = arg["resourceUri"] != null ? arg["resourceUri"] : null;
-  var workUri = arg["workUri"] != null ? arg["workUri"] : null;
-
-  if(workUri == null){
-    var a = $("<a>");
-    $("#compareDifferentEditions").append(a)
-    a.attr("class", "btn btn-primary my-5")
-    a.append("異版比較・Compare Different Editions")
-    url = "item.html?workUri=http://ja.dbpedia.org/resource/"+resourceUri.split("#")[1]
-    a.attr("href", url);
-  }
 
   jQuery(document).ready(function () {
 
@@ -119,33 +106,23 @@
   });
 
   function search() {
-
     var query = " prefix ex: <http://example.org/property/> ";
     query += " select distinct * ";
     query += " where { ";
-    query += " ?individualWork ex:differentEdition ?differentEdition . ";
-    if(resourceUri != null){
-      query += " filter (?differentEdition = <"+resourceUri+"> ) . ";
-    }
-
-    query += " ?differentEdition ex:author ?author . ";
-    query += " ?differentEdition ex:edition ?edition . ";
-    query += " ?differentEdition ex:work ?work . ";
-    if(workUri != null){
-      query += " filter (?work = <"+workUri+"> ) . ";
-    }
-
-    query += " ?individualWork ex:organization ?organization . ";
-    query += " ?individualWork ex:anno ?anno . ";
-
-    query += " ?anno foaf:thumbnail ?image . ";
-    //query += " ?p ex:page ?page . ";
-    query += " ?anno ex:canvas ?canvas . ";
-    query += " ?anno ex:manifest ?manifestUri . ";
+    query += " ?i dc11:source ?resourceUri . ";
+    query += " filter (?resourceUri = <"+resourceUri+"> ) . ";
+    query += " ?resourceUri ex:author ?author . ";
+    query += " ?resourceUri ex:hojo-v ?hojo . ";
+    query += " ?resourceUri ex:work ?work . ";
+    query += " ?i dc11:relation ?manifestUri . ";
+    query += " ?p ex:isPartOf ?i . ";
+    query += " ?p ex:imageApi ?image . ";
+    query += " ?p ex:page ?page . ";
+    query += " ?p ex:canvasUri ?canvas . ";
     query += " } ";
 
     $.ajax({
-      url: 'https://dydra.com/ut-digital-archives/narita3/sparql',
+      url: 'https://dydra.com/ut-digital-archives/narita2/sparql',
       type: 'POST',
       data: {
         query: query,
@@ -158,8 +135,6 @@
 
       var tbody = $("#resourceListBody");
 
-      param_str = ""
-
       for (var i = 0; i < result.length; i++) {
         var obj = result[i];
 
@@ -170,57 +145,38 @@
         var td = $("<td>");
         tr.append(td)
 
-        td = $("<td>");
-        tr.append(td)
-
         var a = $("<a>");
         td.append(a)
-        a.attr("href", "../mirador/index.html?manifestUri="+obj.manifestUri.value+"&canvasUri="+obj.canvas.value+"&resourceUri="+encodeURIComponent(obj.individualWork.value))
+        a.attr("href", "../mirador/?manifestUri="+obj.manifestUri.value+"&canvasUri="+obj.canvas.value+"&resourceUri="+obj.i.value)
 
         var img = $("<img>")
         a.append(img)
-        img.attr("src", obj.image.value.replace("600,", "90,"))
+        img.attr("src", obj.image.value+"/full/,96/0/default.jpg")
 
         var td = $("<td>");
         tr.append(td)
-        var a = $("<a>");
-        td.append(a)
-        a.attr("href", "../mirador/index.html?manifestUri="+obj.manifestUri.value+"&canvasUri="+obj.canvas.value+"&resourceUri="+encodeURIComponent(obj.individualWork.value))
-
-        a.append(obj.work.value.replace("http://ja.dbpedia.org/resource/", ""))
+        td.append(obj.work.value.replace("http://example.org/work/", ""))
 
         var td = $("<td>");
         tr.append(td)
-        td.append(obj.edition.value.replace("http://ja.dbpedia.org/resource/", ""))
+        td.append(obj.hojo.value.replace("http://example.org/hojo-v/", ""))
 
         var td = $("<td>");
         tr.append(td)
-        td.append(obj.organization.value)
+        td.append(obj.manifestUri.value)
 
         var td = $("<td>");
         tr.append(td)
-        td.append(obj.canvas.value)
-
-        param_str += ";"+obj.manifestUri.value+";"+obj.canvas.value
+        td.append(obj.page.value)
 
       }
-
-      $("#compareBtn").attr("href", "../mirador/compare.html?param="+param_str.substring(1))
 
       // DataTable
       var table = $('#table').DataTable({
         "iDisplayLength": 25,
         "order": [[4, "asc"]]
-      });
 
-      table.on('order.dt search.dt', function () {
-        table.column(0, {
-          search: 'applied',
-          order: 'applied'
-        }).nodes().each(function (cell, i) {
-          cell.innerHTML = i + 1;
-        });
-      }).draw();
+      });
 
 
     })

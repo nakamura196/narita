@@ -38,7 +38,7 @@
   <div class="container mt-5">
 
     <div class="pricing-header mx-auto text-center">
-      <h2>Different Edition Works <span id="of"></span> <span id="by"></span> <span id="in"></span> </h2>
+      <h2>異版作品・Different Edition Works <span id="of"></span> <span id="by"></span> <span id="in"></span> </h2>
     </div>
 
     <div class="text-center" id="loading">
@@ -49,10 +49,11 @@
       <thead id="thead">
         <tr>
           <th></th>
-          <th>Work</th>
-          <th>Author</th>
-          <th>Hojo</th>
-          <th>Image Flag</th>
+          <th>作品名・Work</th>
+          <th>著者・Author</th>
+          <th>版・Edition（Hojo）</th>
+          <th>巻・Volume</th>
+          <th>画像の有無・Image Flag</th>
         </tr>
       </thead>
       <tbody id="resourceListBody">
@@ -82,7 +83,7 @@
   crossorigin="anonymous"></script>
 
   <script type="text/javascript" src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
-
+  
   <script>
 
   var arg  = new Object;
@@ -95,17 +96,18 @@
 
   var workUri = arg["workUri"] != null ? arg["workUri"] : null;
   if(workUri != null){
-    $("#of").text("of "+workUri.replace("http://example.org/work/", ""))
+    $("#of").text("of "+workUri.replace("http://ja.dbpedia.org/resource/", ""))
   }
 
   var authorUri = arg["authorUri"] != null ? arg["authorUri"] : null;
   if(authorUri != null){
-    $("#by").text("by "+authorUri.replace("http://example.org/author/", ""))
+    $("#by").text("by "+authorUri.replace("http://ja.dbpedia.org/resource/", ""))
   }
 
   var hojoUri = arg["hojoUri"] != null ? arg["hojoUri"] : null;
   if(hojoUri != null){
-    $("#in").text("in "+hojoUri.replace("http://example.org/hojo-v/", "").replace("-", " ")+"巻")
+    //$("#in").text("in "+hojoUri.replace("http://ja.dbpedia.org/resource/", "").replace("-", " ")+"巻")
+    $("#in").text("in "+hojoUri.replace("http://ja.dbpedia.org/resource/", "").replace("-", " "))
   }
 
   jQuery(document).ready(function () {
@@ -120,7 +122,7 @@
 
   function search() {
     var query = " prefix ex: <http://example.org/property/> ";
-    query += " select distinct * ";
+    query += " select distinct ?label ?author ?s ?hojo ?p ?vol ";
     query += " where { ";
 
     query += " ?s rdf:type <http://example.org/class/DifferentEditionWork> . ";
@@ -141,18 +143,20 @@
     query += " ?authorUri rdfs:label ?author . ";
 
     //法帖
-    query += " ?s ex:hojo-v ?hojoUri . ";
+    query += " ?s ex:edition ?hojoUri . ";
     if(hojoUri != null){
       query += " filter (?hojoUri = <"+hojoUri+"> ) . ";
     }
     query += " ?hojoUri rdfs:label ?hojo . ";
 
-    query += " optional {?i dc11:source ?s . } "
+    query += " optional {?i ?p ?s . filter ( ?p = ex:differentEdition )} "
+
+    query += " ?s <http://purl.org/ontology/bibo/volume> ?vol . ";
 
     query += " } ";
 
     $.ajax({
-      url: 'https://dydra.com/ut-digital-archives/narita2/sparql',
+      url: 'https://dydra.com/ut-digital-archives/narita3/sparql',
       type: 'POST',
       data: {
         query: query,
@@ -182,7 +186,7 @@
         var a = $("<a>");
         td.append(a);
         a.append(label);
-        a.attr("href", "item.html?resourceUri="+obj.s.value);
+        a.attr("href", "item.html?resourceUri="+encodeURIComponent(obj.s.value));
 
         var td = $("<td>");
         tr.append(td);
@@ -192,10 +196,13 @@
         tr.append(td);
         td.append(obj.hojo.value)
 
+        td = $("<td>");
+        tr.append(td);
+        td.append(obj.vol.value)
 
         td = $("<td>");
         tr.append(td);
-        if(obj.i){
+        if(obj.p){
           td.append("True")
         }
 

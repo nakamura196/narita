@@ -106,13 +106,13 @@
     query += " optional { " ;
     query += " ?diff ex:work ?s . ";
     query += " ?i ?v ?diff . ";
-    query += " filter (?v = dc11:source ) ";
+    query += " filter (?v = ex:differentEdition ) ";
     query += " } ";
 
     query += " } ";
 
     $.ajax({
-      url: 'https://dydra.com/ut-digital-archives/narita2/sparql',
+      url: 'https://dydra.com/ut-digital-archives/narita3/sparql',
       type: 'POST',
       data: {
         query: query,

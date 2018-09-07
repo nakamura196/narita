@@ -37,25 +37,20 @@
 
   <div class="container mt-5">
 
-    <div class="pricing-header mx-auto text-center">
-      <h2>Individual Works</h2>
+    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+      <h3>Authors</h3>
     </div>
 
     <div class="text-center" id="loading">
       <img src="https://loading.io/spinners/balls/index.circle-slack-loading-icon.gif"/>
     </div>
 
-    <a id="compareBtn" class="btn btn-primary my-5">比較・Compare</a>   <span id="compareDifferentEditions"></span>
-
     <table class="table table-hover" id="table">
       <thead id="thead">
         <tr>
           <th></th>
-          <th></th>
-          <th>作品・Work</th>
-          <th>版（法帖）・Edition</th>
-          <th>公開機関・Organization</th>
-          <th>Canvas</th>
+          <th>Author</th>
+          <th>Image Flag</th>
         </tr>
       </thead>
       <tbody id="resourceListBody">
@@ -88,24 +83,12 @@
 
   <script>
 
-  var arg  = new Object;
+  var arg = new Object;
   url = location.search.substring(1).split('&');
 
-  for(i=0; url[i]; i++) {
+  for (i = 0; url[i]; i++) {
     var k = url[i].split('=');
     arg[k[0]] = decodeURIComponent(k[1]);
-  }
-
-  var resourceUri = arg["resourceUri"] != null ? arg["resourceUri"] : null;
-  var workUri = arg["workUri"] != null ? arg["workUri"] : null;
-
-  if(workUri == null){
-    var a = $("<a>");
-    $("#compareDifferentEditions").append(a)
-    a.attr("class", "btn btn-primary my-5")
-    a.append("異版比較・Compare Different Editions")
-    url = "item.html?workUri=http://ja.dbpedia.org/resource/"+resourceUri.split("#")[1]
-    a.attr("href", url);
   }
 
   jQuery(document).ready(function () {
@@ -119,33 +102,24 @@
   });
 
   function search() {
-
     var query = " prefix ex: <http://example.org/property/> ";
-    query += " select distinct * ";
+    query += " select distinct ?s ?label ?v ";
     query += " where { ";
-    query += " ?individualWork ex:differentEdition ?differentEdition . ";
-    if(resourceUri != null){
-      query += " filter (?differentEdition = <"+resourceUri+"> ) . ";
-    }
 
-    query += " ?differentEdition ex:author ?author . ";
-    query += " ?differentEdition ex:edition ?edition . ";
-    query += " ?differentEdition ex:work ?work . ";
-    if(workUri != null){
-      query += " filter (?work = <"+workUri+"> ) . ";
-    }
+    query += " ?s rdfs:label ?label . ";
+    query += " ?s rdf:type <http://example.org/class/Author> . ";
 
-    query += " ?individualWork ex:organization ?organization . ";
-    query += " ?individualWork ex:anno ?anno . ";
+    //作品
+    query += " optional { " ;
+    query += " ?diff ex:author ?s . ";
+    query += " ?i ?v ?diff . ";
+    query += " filter (?v = dc11:source ) ";
+    query += " } ";
 
-    query += " ?anno foaf:thumbnail ?image . ";
-    //query += " ?p ex:page ?page . ";
-    query += " ?anno ex:canvas ?canvas . ";
-    query += " ?anno ex:manifest ?manifestUri . ";
     query += " } ";
 
     $.ajax({
-      url: 'https://dydra.com/ut-digital-archives/narita3/sparql',
+      url: 'https://dydra.com/ut-digital-archives/narita2/sparql',
       type: 'POST',
       data: {
         query: query,
@@ -158,59 +132,39 @@
 
       var tbody = $("#resourceListBody");
 
-      param_str = ""
-
       for (var i = 0; i < result.length; i++) {
         var obj = result[i];
 
-        // Manifest
+        var label = obj.label.value
+
         var tr = $("<tr>");
-        tbody.append(tr)
+        tbody.append(tr);
 
         var td = $("<td>");
-        tr.append(td)
+        tr.append(td);
 
         td = $("<td>");
-        tr.append(td)
+        tr.append(td);
 
         var a = $("<a>");
-        td.append(a)
-        a.attr("href", "../mirador/index.html?manifestUri="+obj.manifestUri.value+"&canvasUri="+obj.canvas.value+"&resourceUri="+encodeURIComponent(obj.individualWork.value))
+        td.append(a);
+        a.append(label);
+        a.attr("href", "main.html?authorUri="+obj.s.value);
 
-        var img = $("<img>")
-        a.append(img)
-        img.attr("src", obj.image.value.replace("600,", "90,"))
+        td = $("<td>");
+        tr.append(td);
 
-        var td = $("<td>");
-        tr.append(td)
-        var a = $("<a>");
-        td.append(a)
-        a.attr("href", "../mirador/index.html?manifestUri="+obj.manifestUri.value+"&canvasUri="+obj.canvas.value+"&resourceUri="+encodeURIComponent(obj.individualWork.value))
-
-        a.append(obj.work.value.replace("http://ja.dbpedia.org/resource/", ""))
-
-        var td = $("<td>");
-        tr.append(td)
-        td.append(obj.edition.value.replace("http://ja.dbpedia.org/resource/", ""))
-
-        var td = $("<td>");
-        tr.append(td)
-        td.append(obj.organization.value)
-
-        var td = $("<td>");
-        tr.append(td)
-        td.append(obj.canvas.value)
-
-        param_str += ";"+obj.manifestUri.value+";"+obj.canvas.value
+        if(obj.v){
+          td.append("True")
+        }
 
       }
-
-      $("#compareBtn").attr("href", "../mirador/compare.html?param="+param_str.substring(1))
 
       // DataTable
       var table = $('#table').DataTable({
         "iDisplayLength": 25,
-        "order": [[4, "asc"]]
+        "order": [[1, "asc"]]
+
       });
 
       table.on('order.dt search.dt', function () {
@@ -221,8 +175,6 @@
           cell.innerHTML = i + 1;
         });
       }).draw();
-
-
     })
     // Ajaxリクエストが失敗した時発動
     .fail((data) => {

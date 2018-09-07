@@ -38,7 +38,7 @@
   <div class="container mt-5">
 
     <div class="pricing-header mx-auto text-center">
-      <h2>Hojos</h2>
+      <h2>Editions（Hojos）</h2>
     </div>
 
     <div class="text-center" id="loading">
@@ -49,8 +49,9 @@
       <thead id="thead">
         <tr>
           <th></th>
-          <th>Hojo</th>
-          <th>Volume</th>
+          <th></th>
+          <th>Edition</th>
+          <th>Abstract</th>
         </tr>
       </thead>
       <tbody id="resourceListBody">
@@ -99,17 +100,32 @@
     query += " select distinct * ";
     query += " where { ";
 
-    query += " ?s rdf:type <http://example.org/class/Hojo-V> . ";
+    query += " ?s rdf:type <http://example.org/class/Edition> . ";
+    query += " ?s rdfs:label ?label . ";
 
-    query += " ?s ex:hojo ?hojo . ";
-    query += " ?hojo rdfs:label ?label . ";
+    query += " optional { ?s rdfs:comment ?comment . } ";
+    query += " optional { ?s <http://dbpedia.org/ontology/thumbnail> ?thumb . } ";
 
-    query += " ?s bibo:volume ?vol . ";
+    /*
+
+    <rdf:Description rdf:about="http://ja.dbpedia.org/resource/宣和秘閣帖#願餘帖">
+    <ns1:work rdf:resource="http://ja.dbpedia.org/resource/願餘帖"/>
+    <rdf:type rdf:resource="http://example.org/class/DifferentEditionWork"/>
+    <ns1:author rdf:resource="http://ja.dbpedia.org/resource/王獻之"/>
+    <ns1:edition rdf:resource="http://ja.dbpedia.org/resource/宣和秘閣帖"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://ja.dbpedia.org/resource/宣和秘閣帖">
+    <rdfs:label>宣和秘閣帖</rdfs:label>
+    <rdf:type rdf:resource="http://example.org/class/Edition"/>
+    </rdf:Description>
+
+    */
 
     query += " } ";
 
     $.ajax({
-      url: 'https://dydra.com/ut-digital-archives/narita2/sparql',
+      url: 'https://dydra.com/ut-digital-archives/narita3/sparql',
       type: 'POST',
       data: {
         query: query,
@@ -135,6 +151,16 @@
 
         td = $("<td>");
         tr.append(td);
+        if(obj.thumb){
+          img = $("<img>");
+          td.append(img)
+          img.attr("src", obj.thumb.value)
+          img.attr("width", 96)
+          img.attr("height", 96)
+        }
+
+        td = $("<td>");
+        tr.append(td);
 
         var a = $("<a>");
         td.append(a);
@@ -143,7 +169,10 @@
 
         td = $("<td>");
         tr.append(td);
-        td.append(obj.vol.value)
+        if(obj.comment){
+          td.append(obj.comment.value)
+        }
+        //td.append(obj.vol.value)
 
       }
 

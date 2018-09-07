@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <link rel="stylesheet" type="text/css" href="mirador/css/mirador-combined.css">
+  <link rel="stylesheet" type="text/css" href="mirador/plugins/mirador-dragndrop-link-plugin/dragndrop-link.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/css/mdb.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css"/>
+
+  <title>Mirador</title>
+
+  <style type="text/css">
+  #viewer {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+  }
+  </style>
+
+</head>
+<body>
+
+  <div id="viewer"></div>
+
+  <script
+  src="//code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+  <script src="mirador/mirador.min.js"></script>
+
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/js/mdb.min.js"></script>
+
+  <script type="text/javascript" src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+
+  <script type="text/javascript" language="javascript">
+
+  //パラメータの取得
+  var vars = getParam();
+
+  var param = vars["param"];
+
+  params = param.split(";")
+
+  windowObjects = []
+  data = []
+
+  for(i = 0; i < params.length; i = i + 2){
+    manifest_uri = params[i]
+    canvas_uri = params[i + 1]
+
+    var obj = new Object();
+    obj["loadedManifest"] = manifest_uri;
+    obj["canvasID"] =  canvas_uri;
+    obj["viewType"] = "ImageView";
+    windowObjects.push(obj);
+
+    obj = new Object();
+    obj["manifestUri"] = manifest_uri;
+    data.push(obj)
+  }
+
+  layout = "1x"+(params.length / 2);
+
+  $(function(){
+
+    miradorInstance = Mirador(
+      {
+        "id": "viewer",
+        "layout": layout,
+        "data": data,
+        "windowSettings": {
+          "sidePanel": true,
+          "canvasControls": {
+            "annotations": {
+              "annotationState": "on",
+              "annotationCreation": false
+            }
+          }
+        },
+        "windowObjects": windowObjects,
+        "annotationEndpoint": { "name":"Local Storage", "module": "LocalStorageEndpoint" }
+      }
+    );
+
+
+  });
+
+  function getParam(){
+    var vars = {};
+    var param = location.search.substring(1).split('&');
+    for(var i = 0; i < param.length; i++) {
+      var keySearch = param[i].search(/=/);
+      var key = '';
+      if(keySearch != -1) key = param[i].slice(0, keySearch);
+      var val = param[i].slice(param[i].indexOf('=', 0) + 1);
+      if(key != '') vars[key] = decodeURI(val);
+    }
+    return vars;
+  }
+
+</script>
+</body>
+</html>
