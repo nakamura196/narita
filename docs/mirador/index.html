@@ -28,7 +28,7 @@
     position: relative;
   }
   </style>
-
+  
   <script
   src="//code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -44,7 +44,7 @@
   <div class="container-fluid mb-5">
 
     <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-      <h3>Individual Work of <span id="title"></span></h3>
+      <h3>個別作品・Individual Work - <span id="title"></span></h3>
     </div>
 
     <div class="text-center" id="loading">
@@ -150,20 +150,18 @@
   var selectors = {}
 
   function search(){
-    var query = " prefix ex: <http://example.org/property/> ";
 
     resourceUri = decodeURIComponent(resourceUri)
+    $("#title").text(resourceUri.replace("http://ja.dbpedia.org/resource/", ""))
+
+    var query = " prefix ex: <http://example.org/property/> ";
 
     query += " select distinct * ";
     query += " where { ";
     query += " ?individualWork ex:anno ?anno . ";
     query += " filter (?individualWork = <"+resourceUri+"> ) . ";
 
-
     query += " ?anno ex:canvas ?canvas . ";
-    query += " ?individualWork ex:differentEdition ?differentEdition . ";
-    query += " ?differentEdition ex:work ?work . ";
-    query += " ?work rdfs:label ?label . ";
     query += " ?anno ex:selector ?selector . ";
 
     query += " } ";
@@ -184,10 +182,6 @@
 
       for (var i = 0; i < result.length; i++) {
         var obj = result[i];
-
-        if(i == 0){
-          $("#title").text(obj.label.value)
-        }
 
         // Manifest
         var tr = $("<tr>");

@@ -128,6 +128,8 @@
 
       param_str = ""
 
+      mirador_path = "http://diyhistory.org/uparl/mirador"
+
       for (var i = 0; i < result.length; i++) {
         var obj = result[i];
 
@@ -143,7 +145,7 @@
 
         var a = $("<a>");
         td.append(a)
-        a.attr("href", "../mirador/index.html?manifestUri="+obj.manifestUri.value+"&canvasUri="+obj.canvas.value+"&resourceUri="+encodeURIComponent(obj.individualWork.value))
+        a.attr("href", mirador_path+"/index.html?manifestUri="+obj.manifestUri.value+"&canvasUri="+obj.canvas.value+"&resourceUri="+encodeURIComponent(obj.individualWork.value))
 
         var img = $("<img>")
         a.append(img)
@@ -153,7 +155,7 @@
         tr.append(td)
         var a = $("<a>");
         td.append(a)
-        a.attr("href", "../mirador/index.html?manifestUri="+obj.manifestUri.value+"&canvasUri="+obj.canvas.value+"&resourceUri="+encodeURIComponent(obj.individualWork.value))
+        a.attr("href", mirador_path+"/index.html?manifestUri="+obj.manifestUri.value+"&canvasUri="+obj.canvas.value+"&resourceUri="+encodeURIComponent(obj.individualWork.value))
 
         a.append(obj.work.value.replace("http://ja.dbpedia.org/resource/", ""))
 
@@ -173,7 +175,7 @@
 
       }
 
-      $("#compareBtn").attr("href", "http://diyhistory.org/uparl/mirador/compare.html?param="+param_str.substring(1))
+      $("#compareBtn").attr("href", mirador_path+"/compare.html?param="+param_str.substring(1))
 
       // DataTable
       var table = $('#table').DataTable({
