@@ -5,35 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <!-- Bootstrap core CSS -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Material Design Bootstrap -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/css/mdb.min.css" rel="stylesheet">
-
-  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css"/>
-
-  <link rel="stylesheet" type="text/css" href="../assets/css/style.css"/>
 
   <title>LOD Applications</title>
+
+  <script
+  src="//code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+  <script src="../assets/js/main.js"></script>
+
+  <script>asset('../');</script>
+
+
 
 </head>
 
 <body>
 
-  <header>
-
-    <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light white scrolling-navbar">
-      <div class="container">
-        <a class="navbar-brand" href="../">Narita Nakamura Project</a>
-
-      </div>
-    </nav>
-    <!--/.Navbar-->
-
-  </header>
+  <script>header('../');</script>
 
   <div class="container mt-5">
 
@@ -60,27 +50,7 @@
 
   </div>
 
-  <!--Footer-->
-  <footer class="page-footer text-center font-small mdb-color darken-2 mt-4 fadeIn">
-
-    <!--Copyright-->
-    <div class="footer-copyright py-5">
-      Satoru Nakamura. Kentaro Narita. CC BY.
-    </div>
-    <!--/.Copyright-->
-
-  </footer>
-  <!--/.Footer-->
-
-  <script
-  src="//code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-  crossorigin="anonymous"></script>
-
-  <script type="text/javascript" src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+  <script>footer('../');</script>
 
   <script>
 
@@ -105,22 +75,6 @@
 
     query += " optional { ?s rdfs:comment ?comment . } ";
     query += " optional { ?s <http://dbpedia.org/ontology/thumbnail> ?thumb . } ";
-
-    /*
-
-    <rdf:Description rdf:about="http://ja.dbpedia.org/resource/宣和秘閣帖#願餘帖">
-    <ns1:work rdf:resource="http://ja.dbpedia.org/resource/願餘帖"/>
-    <rdf:type rdf:resource="http://example.org/class/DifferentEditionWork"/>
-    <ns1:author rdf:resource="http://ja.dbpedia.org/resource/王獻之"/>
-    <ns1:edition rdf:resource="http://ja.dbpedia.org/resource/宣和秘閣帖"/>
-    </rdf:Description>
-
-    <rdf:Description rdf:about="http://ja.dbpedia.org/resource/宣和秘閣帖">
-    <rdfs:label>宣和秘閣帖</rdfs:label>
-    <rdf:type rdf:resource="http://example.org/class/Edition"/>
-    </rdf:Description>
-
-    */
 
     query += " } ";
 

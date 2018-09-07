@@ -7,6 +7,8 @@
   <link rel="stylesheet" type="text/css" href="mirador/plugins/mirador-dragndrop-link-plugin/dragndrop-link.css">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+  <title>Mirador</title>
+
   <!-- Bootstrap core CSS -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
   <!-- Material Design Bootstrap -->
@@ -16,7 +18,7 @@
 
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css"/>
 
-  <title>Mirador</title>
+  <link rel="stylesheet" type="text/css" href="../assets/css/style.css"/>
 
   <style type="text/css">
   #viewer {
@@ -27,20 +29,17 @@
   }
   </style>
 
+  <script
+  src="//code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+  <script src="../assets/js/main.js"></script>
+
 </head>
 <body style="background-color: #eee;">
 
-  <header>
-
-    <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light white scrolling-navbar">
-      <div class="container-fluid">
-        <a class="navbar-brand">Mirador</a>
-      </div>
-    </nav>
-    <!--/.Navbar-->
-
-  </header>
+  <script>header('../');</script>
 
   <div class="container-fluid mb-5">
 
@@ -74,22 +73,9 @@
 
   </div>
 
-  <!--Footer-->
-  <footer class="page-footer text-center font-small mdb-color darken-2 mt-4 fadeIn">
+  <script>footer('../');</script>
 
-    <!--Copyright-->
-    <div class="footer-copyright py-5">
-      Satoru Nakamura. Kentaro Narita. CC BY.
-    </div>
-    <!--/.Copyright-->
 
-  </footer>
-  <!--/.Footer-->
-
-  <script
-  src="//code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
 
   <script src="mirador/mirador.min.js"></script>
 
