@@ -19,7 +19,7 @@
                 }
             ],
             "within": {
-                "@id": "https://kotenseki.nijl.ac.jp/biblio/100065344/manifest",
+                "@id": "http://diyhistory.org/uparl/omeka_o/oa/collections/1/manifest.json",
                 "@label": "淳化閣帖",
                 "@type": "sc:Manifest"
             }

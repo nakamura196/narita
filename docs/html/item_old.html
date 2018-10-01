@@ -39,9 +39,11 @@
       <thead id="thead">
         <tr>
           <th></th>
+          <th></th>
           <th>作品・Work</th>
           <th>版（法帖）・Edition</th>
           <th>公開機関・Organization</th>
+          <th>Canvas</th>
         </tr>
       </thead>
       <tbody id="resourceListBody">
@@ -102,8 +104,12 @@
     }
 
     query += " ?individualWork ex:organization ?organization . ";
-    query += " ?individualWork ex:curation ?anno . ";
+    query += " ?individualWork ex:anno ?anno . ";
 
+    query += " ?anno foaf:thumbnail ?image . ";
+    //query += " ?p ex:page ?page . ";
+    query += " ?anno ex:canvas ?canvas . ";
+    query += " ?anno ex:manifest ?manifestUri . ";
     query += " } ";
 
     $.ajax({
@@ -134,12 +140,22 @@
         var td = $("<td>");
         tr.append(td)
 
+        td = $("<td>");
+        tr.append(td)
+
+        var a = $("<a>");
+        td.append(a)
+        a.attr("href", mirador_path+"/index.html?manifestUri="+obj.manifestUri.value.replace("http://", "https://")+"&canvasUri="+obj.canvas.value+"&resourceUri="+encodeURIComponent(obj.individualWork.value))
+
+        var img = $("<img>")
+        a.append(img)
+        img.attr("src", obj.image.value.replace("600,", "90,"))
+
         var td = $("<td>");
         tr.append(td)
         var a = $("<a>");
         td.append(a)
-        //a.attr("href", mirador_path+"/index2.html?curation="+obj.anno.value+"&resourceUri="+encodeURIComponent(obj.individualWork.value))
-        a.attr("href", "http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?curation="+obj.anno.value)
+        a.attr("href", mirador_path+"/index.html?manifestUri="+obj.manifestUri.value.replace("http://", "https://")+"&canvasUri="+obj.canvas.value+"&resourceUri="+encodeURIComponent(obj.individualWork.value))
 
         a.append(obj.work.value.replace("http://ja.dbpedia.org/resource/", ""))
 
@@ -151,7 +167,11 @@
         tr.append(td)
         td.append(obj.organization.value)
 
-        param_str += ";"+obj.anno.value
+        var td = $("<td>");
+        tr.append(td)
+        td.append(obj.canvas.value)
+
+        param_str += ";"+obj.manifestUri.value.replace("http://", "https://")+";"+obj.canvas.value
 
       }
 
@@ -160,7 +180,7 @@
       // DataTable
       var table = $('#table').DataTable({
         "iDisplayLength": 25,
-        "order": [[3, "asc"]]
+        "order": [[4, "asc"]]
       });
 
       table.on('order.dt search.dt', function () {

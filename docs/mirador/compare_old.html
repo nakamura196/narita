@@ -57,33 +57,25 @@
 
   params = param.split(";")
 
-  $.ajaxSetup({
-    async: false
-  });
-
   windowObjects = []
   data = []
 
-  for(i = 0; i< params.length; i++){
-    $.getJSON(params[i], function(json){
-      selection = json["selections"][0]
-      canvas_uri = selection["members"][0]["label"]
-      manifest_uri = selection["within"]["@id"]
+  for(i = 0; i < params.length; i = i + 2){
+    manifest_uri = params[i]
+    canvas_uri = params[i + 1]
 
-      var obj = new Object();
-      obj["loadedManifest"] = manifest_uri;
-      obj["canvasID"] =  canvas_uri;
-      obj["viewType"] = "ImageView";
-      windowObjects.push(obj);
+    var obj = new Object();
+    obj["loadedManifest"] = manifest_uri;
+    obj["canvasID"] =  canvas_uri;
+    obj["viewType"] = "ImageView";
+    windowObjects.push(obj);
 
-      obj = new Object();
-      obj["manifestUri"] = manifest_uri;
-      data.push(obj)
-
-    });
+    obj = new Object();
+    obj["manifestUri"] = manifest_uri;
+    data.push(obj)
   }
 
-  layout = "1x"+(params.length);
+  layout = "1x"+(params.length / 2);
 
   $(function(){
 

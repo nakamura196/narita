@@ -24,7 +24,7 @@
                 }
             ],
             "within": {
-                "@id": "https://www.dl.ndl.go.jp/api/iiif/2587034/manifest.json",
+                "@id": "http://diyhistory.org/uparl/omeka_o/oa/collections/2/manifest.json",
                 "@label": "淳化閣帖第1-10. [8]",
                 "@type": "sc:Manifest"
             }
