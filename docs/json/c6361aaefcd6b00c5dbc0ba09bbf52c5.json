@@ -1,0 +1,28 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/narita/json/c6361aaefcd6b00c5dbc0ba09bbf52c5.json",
+    "@type": "cr:Curation",
+    "label": "Curating list",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/narita/json/c6361aaefcd6b00c5dbc0ba09bbf52c5.json/range1",
+            "@type": "sc:Range",
+            "label": "Manual curation by IIIF Curation Viewer",
+            "members": [
+                {
+                    "@id": "https://kotenseki.nijl.ac.jp/biblio/100065344/canvas/228#xywh=341,954,2295,3269",
+                    "@type": "sc:Canvas",
+                    "label": "https://kotenseki.nijl.ac.jp/biblio/100065344/canvas/228"
+                }
+            ],
+            "within": {
+                "@id": "https://kotenseki.nijl.ac.jp/biblio/100065344/manifest",
+                "@label": "淳化閣帖",
+                "@type": "sc:Manifest"
+            }
+        }
+    ]
+}
