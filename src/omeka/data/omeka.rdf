@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:ns1="http://example.org/property/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://ja.dbpedia.org/resource/星鳳樓帖#採菊帖@東京大学">
+    <ns1:differentEdition rdf:resource="http://ja.dbpedia.org/resource/星鳳樓帖#採菊帖"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/bc4364f26612c669ecf6b57804ba4f4f.json"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+</rdf:RDF>

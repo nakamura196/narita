@@ -1,0 +1,61 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "https://diyhistory.org/uparl/omeka_o/oa/items/120/manifest.json",
+	"metadata": [
+		{
+			"value": "https://kotenseki.nijl.ac.jp/biblio/100065344/manifest",
+			"label": "Source"
+		}
+	],
+	"sequences": [
+		{
+			"@type": "sc:Sequence",
+			"@id": "https://diyhistory.org/uparl/omeka_o/oa/items/120/sequence.json",
+			"label": "",
+			"canvases": [
+				{
+					"images": [
+						{
+							"@type": "oa:Annotation",
+							"@id": "https://kotenseki.nijl.ac.jp/biblio/100065344/annotation/120",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://kotenseki.nijl.ac.jp/api/iiif/100065344/v1/0204/0204-011705/0204-011705-0119.tif/full/full/0/default.jpg",
+								"format": "image/tiff",
+								"height": 4677,
+								"@type": "dctypes:Image",
+								"dc:identifier": "0204-011705",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://kotenseki.nijl.ac.jp/api/iiif/100065344/v1/0204/0204-011705/0204-011705-0119.tif",
+									"profile": "http://iiif.io/api/image/2/level1.json"
+								},
+								"width": 5142
+							},
+							"on": "https://kotenseki.nijl.ac.jp/biblio/100065344/canvas/120"
+						}
+					],
+					"@id": "https://kotenseki.nijl.ac.jp/biblio/100065344/canvas/120",
+					"metadata": [
+						{
+							"value": "https://kotenseki.nijl.ac.jp/biblio/100065344/manifest",
+							"label": "Source"
+						}
+					],
+					"height": 4677,
+					"@type": "sc:Canvas",
+					"label": " 120コマ目",
+					"width": 5142,
+					"otherContent": [
+						{
+							"@type": "sc:AnnotationList",
+							"@id": "https://diyhistory.org/uparl/omeka_o/oa/items/120/annolist.json"
+						}
+					]
+				}
+			]
+		}
+	],
+	"@type": "sc:Manifest",
+	"label": "淳化閣帖"
+}
