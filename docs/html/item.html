@@ -14,7 +14,7 @@
   crossorigin="anonymous"></script>
 
   <script src="../assets/js/main.js"></script>
-
+  
   <script>asset('../');</script>
 
 </head>
@@ -33,7 +33,9 @@
       <img src="https://loading.io/spinners/balls/index.circle-slack-loading-icon.gif"/>
     </div>
 
-    <a id="compareBtn" class="btn btn-warning my-5">比較・Compare with Mirador</a>   <span id="compareDifferentEditions"></span>
+    <div class="my-5">
+      <a id="compareBtn" class="btn btn-warning">比較・Compare with Mirador</a>   <span id="compareDifferentEditions"></span>
+    </div>
 
     <table class="table table-hover" id="table">
       <thead id="thead">
@@ -68,7 +70,7 @@
   if(workUri == null){
     var a = $("<a>");
     $("#compareDifferentEditions").append(a)
-    a.attr("class", "btn btn-primary my-5")
+    a.attr("class", "btn btn-primary")
     a.append("異版比較・Compare Different Editions")
     url = "item.html?workUri=http://ja.dbpedia.org/resource/"+resourceUri.split("#")[1]
     a.attr("href", url);
