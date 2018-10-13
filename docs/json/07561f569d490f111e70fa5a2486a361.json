@@ -13,6 +13,11 @@
             "label": "Manual curation by IIIF Curation Viewer",
             "members": [
                 {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167779/canvas/p3#xywh=1263,910,4965,4729",
+                    "@type": "sc:Canvas",
+                    "label": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167779/canvas/p3"
+                },
+                {
                     "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167779/canvas/p4#xywh=6449,852,765,4791",
                     "@type": "sc:Canvas",
                     "label": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167779/canvas/p4"

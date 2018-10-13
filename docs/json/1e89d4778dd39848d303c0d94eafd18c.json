@@ -3,24 +3,24 @@
         "http://iiif.io/api/presentation/2/context.json",
         "http://codh.rois.ac.jp/iiif/curation/1/context.json"
     ],
-    "@id": "https://nakamura196.github.io/narita/json/c6361aaefcd6b00c5dbc0ba09bbf52c5.json",
+    "@id": "https://nakamura196.github.io/narita/json/1e89d4778dd39848d303c0d94eafd18c.json",
     "@type": "cr:Curation",
     "label": "Curating list",
     "selections": [
         {
-            "@id": "https://nakamura196.github.io/narita/json/c6361aaefcd6b00c5dbc0ba09bbf52c5.json/range1",
+            "@id": "https://nakamura196.github.io/narita/json/1e89d4778dd39848d303c0d94eafd18c.json/range1",
             "@type": "sc:Range",
             "label": "Manual curation by IIIF Curation Viewer",
             "members": [
                 {
-                    "@id": "https://kotenseki.nijl.ac.jp/biblio/100065344/canvas/228#xywh=341,954,2295,3269",
+                    "@id": "https://www.dl.ndl.go.jp/api/iiif/2587034/canvas/15#xywh=950,1280,2912,4209",
                     "@type": "sc:Canvas",
-                    "label": "https://kotenseki.nijl.ac.jp/biblio/100065344/canvas/228"
+                    "label": "https://www.dl.ndl.go.jp/api/iiif/2587034/canvas/15"
                 }
             ],
             "within": {
-                "@id": "https://diyhistory.org/uparl/omeka_o/oa/collections/1/manifest.json",
-                "@label": "淳化閣帖",
+                "@id": "https://diyhistory.org/uparl/omeka_o/oa/collections/2/manifest.json",
+                "@label": "淳化閣帖第1-10. [8]",
                 "@type": "sc:Manifest"
             }
         }
