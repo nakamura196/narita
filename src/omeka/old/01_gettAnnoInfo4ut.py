@@ -14,7 +14,7 @@ def getInfoFromManifest(url):
     anno_list_url = data["sequences"][0]["canvases"][0]["otherContent"][0]["@id"];
 
     image_url = data["sequences"][0]["canvases"][0]["images"][0]["resource"]["service"]["@id"];
-    image_url = image_url+"/full/600,/0/default.jpg"
+    image_url = image_url + "/full/600,/0/default.jpg"
 
     # source_manifest = data["sequences"][0]["canvases"][0]["metadata"][0]["value"];
     source_manifest = collection_manifest
@@ -42,9 +42,10 @@ def getInfoFromManifest(url):
 
         manfiest = resource["on"][0]["within"]["@id"]
 
-        subject = "http://ja.dbpedia.org/resource/"+edition+"#"+text+"@"+organization
+        subject = "http://ja.dbpedia.org/resource/" + edition + "#" + text + "@" + organization
         subject = URIRef(subject)
-        g.add((subject, URIRef("http://example.org/property/differentEdition"), URIRef("http://ja.dbpedia.org/resource/"+edition+"#"+text)))
+        g.add((subject, URIRef("http://example.org/property/differentEdition"),
+               URIRef("http://ja.dbpedia.org/resource/" + edition + "#" + text)))
 
         g.add((subject, URIRef("http://example.org/property/organization"), Literal(organization)))
 
@@ -57,8 +58,6 @@ def getInfoFromManifest(url):
         g.add((anno_uri, URIRef("http://example.org/property/manifest"), URIRef(source_manifest)))
 
 
-
-
 flg = True
 page = 1
 
@@ -66,10 +65,10 @@ g = Graph()
 
 ins = "omeka_o"
 
-outputPath = "data/"+ins+".rdf"
+outputPath = "data/" + ins + ".rdf"
 
 while flg:
-    url = "http://diyhistory.org/uparl/"+ins+"/api/items?item_type=18&page=" + str(page)
+    url = "http://diyhistory.org/uparl/" + ins + "/api/items?item_type=18&page=" + str(page)
     print(url)
 
     print(page)
@@ -89,7 +88,7 @@ while flg:
                 if e["element"]["name"] == "On Canvas":
                     uuid = e["text"]
 
-                    tmp_url = "http://diyhistory.org/uparl/"+ins+"/api/items?search="+uuid
+                    tmp_url = "http://diyhistory.org/uparl/" + ins + "/api/items?search=" + uuid
 
                     response = urllib.request.urlopen(tmp_url)
                     response_body = response.read().decode("utf-8")
@@ -99,9 +98,10 @@ while flg:
                     id = obj_t["id"]
                     collection_id = obj_t["collection"]["id"]
 
-            manifest = "https://diyhistory.org/uparl/"+ins+"/oa/items/"+str(id)+"/manifest.json"
+            manifest = "https://diyhistory.org/uparl/" + ins + "/oa/items/" + str(id) + "/manifest.json"
 
-            collection_manifest = "http://diyhistory.org/uparl/"+ins+"/oa/collections/"+str(collection_id)+"/manifest.json"
+            collection_manifest = "http://diyhistory.org/uparl/" + ins + "/oa/collections/" + str(
+                collection_id) + "/manifest.json"
 
             getInfoFromManifest(manifest)
 
