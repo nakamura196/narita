@@ -47,6 +47,16 @@
         </thead>
         <tbody id="resourceListBody">
         </tbody>
+        <tfoot>
+          <tr>
+            <th></th>
+            <th>作品名・Work</th>
+            <th>著者・Author</th>
+            <th>版・Edition（Hojo）</th>
+            <th>巻・Volume</th>
+            <th>画像の有無・Image Flag</th>
+          </tr>
+        </tfoot>
       </table>
     </div>
 
@@ -115,16 +125,20 @@
 
     //法帖
     query += " ?s ex:edition ?hojoUri . ";
+    query += " ?hojoUri ?k ?k2 . "
     if(hojoUri != null){
-      query += " filter (?hojoUri = <"+hojoUri+"> ) . ";
+
+      query += " filter (?k2 = <"+hojoUri+"> ) . ";
     }
-    query += " ?hojoUri rdfs:label ?hojo . ";
+    query += " ?k2 rdfs:label ?hojo . ";
 
     query += " optional {?i ?p ?s . filter ( ?p = ex:differentEdition )} "
 
-    query += " ?s <http://purl.org/ontology/bibo/volume> ?vol . ";
+    query += " ?hojoUri ex:volume ?vol . ";
 
     query += " } ";
+
+    console.log(query)
 
     $.ajax({
       url: 'https://dydra.com/ut-digital-archives/narita3/sparql',
@@ -179,12 +193,31 @@
 
       }
 
+      // Setup - add a text input to each footer cell
+      $('#table tfoot th').each( function () {
+        var title = $(this).text();
+        $(this).html( '<input type="text" class="form-control" placeholder="'+title+'" />' );
+      } );
+
       // DataTable
       var table = $('#table').DataTable({
         "iDisplayLength": 25,
         "order": [[1, "asc"]]
 
       });
+
+      // Apply the search
+      table.columns().every( function () {
+        var that = this;
+
+        $( 'input', this.footer() ).on( 'keyup change', function () {
+          if ( that.search() !== this.value ) {
+            that
+            .search( this.value )
+            .draw();
+          }
+        } );
+      } );
 
       table.on('order.dt search.dt', function () {
         table.column(0, {
