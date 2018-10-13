@@ -1,0 +1,33 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/narita/json/ef21dc5b90ae532a7b8a98335d4f32b8.json",
+    "@type": "cr:Curation",
+    "label": "Curating list",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/narita/json/ef21dc5b90ae532a7b8a98335d4f32b8.json/range1",
+            "@type": "sc:Range",
+            "label": "Manual curation by IIIF Curation Viewer",
+            "members": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167791/canvas/p6#xywh=1639,846,1194,4658",
+                    "@type": "sc:Canvas",
+                    "label": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167791/canvas/p6"
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167791/canvas/p7#xywh=5699,796,1455,4732",
+                    "@type": "sc:Canvas",
+                    "label": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167791/canvas/p7"
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/uparl/omeka/oa/collections/17/manifest.json",
+                "@label": "偽絳帖 四 [A005936-04]",
+                "@type": "sc:Manifest"
+            }
+        }
+    ]
+}

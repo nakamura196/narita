@@ -1,0 +1,28 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/narita/json/0efe3ac1b1a435b04c6c70606db0f3f6.json",
+    "@type": "cr:Curation",
+    "label": "Curating list",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/narita/json/0efe3ac1b1a435b04c6c70606db0f3f6.json/range1",
+            "@type": "sc:Range",
+            "label": "Manual curation by IIIF Curation Viewer",
+            "members": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167816/canvas/p13#xywh=471,432,4807,5340",
+                    "@type": "sc:Canvas",
+                    "label": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167816/canvas/p13"
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/uparl/omeka/oa/collections/42/manifest.json",
+                "@label": "戯鴻堂法書 十六[A006096-16]",
+                "@type": "sc:Manifest"
+            }
+        }
+    ]
+}

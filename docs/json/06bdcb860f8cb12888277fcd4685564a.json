@@ -1,0 +1,28 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/narita/json/06bdcb860f8cb12888277fcd4685564a.json",
+    "@type": "cr:Curation",
+    "label": "Curating list",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/narita/json/06bdcb860f8cb12888277fcd4685564a.json/range1",
+            "@type": "sc:Range",
+            "label": "Manual curation by IIIF Curation Viewer",
+            "members": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167792/canvas/p6#xywh=2663,846,4564,4782",
+                    "@type": "sc:Canvas",
+                    "label": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167792/canvas/p6"
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/uparl/omeka/oa/collections/18/manifest.json",
+                "@label": "偽絳帖 五 [A005936-05]",
+                "@type": "sc:Manifest"
+            }
+        }
+    ]
+}

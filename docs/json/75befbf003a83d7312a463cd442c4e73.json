@@ -3,24 +3,24 @@
         "http://iiif.io/api/presentation/2/context.json",
         "http://codh.rois.ac.jp/iiif/curation/1/context.json"
     ],
-    "@id": "https://nakamura196.github.io/narita/json/c6b169c767f2f16c8b66aeed5da91953.json",
+    "@id": "https://nakamura196.github.io/narita/json/75befbf003a83d7312a463cd442c4e73.json",
     "@type": "cr:Curation",
     "label": "Curating list",
     "selections": [
         {
-            "@id": "https://nakamura196.github.io/narita/json/c6b169c767f2f16c8b66aeed5da91953.json/range1",
+            "@id": "https://nakamura196.github.io/narita/json/75befbf003a83d7312a463cd442c4e73.json/range1",
             "@type": "sc:Range",
             "label": "Manual curation by IIIF Curation Viewer",
             "members": [
                 {
-                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167778/canvas/p8#xywh=1194,841,1139,4767",
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167778/canvas/p13#xywh=1197,827,2778,4779",
                     "@type": "sc:Canvas",
-                    "label": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167778/canvas/p8"
+                    "label": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167778/canvas/p13"
                 },
                 {
-                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167778/canvas/p9#xywh=6099,840,1115,4779",
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167778/canvas/p14#xywh=6662,840,527,4741",
                     "@type": "sc:Canvas",
-                    "label": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167778/canvas/p9"
+                    "label": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167778/canvas/p14"
                 }
             ],
             "within": {
