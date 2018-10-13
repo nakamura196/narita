@@ -3,494 +3,124 @@
    xmlns:ns1="http://example.org/property/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-07@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/07138d50371a0116fa35b6a19e91c309.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-07"/>
+  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-04-01@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-04-01"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/a3ce043fed2d677514aaac872e987200.json"/>
     <ns1:organization>東京大学</ns1:organization>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-50@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/32c8baa1f420f175c1679bebeebe16dc.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-50"/>
+  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-29@東京大学">
     <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-26@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/c7241abf39169b2794fbdc060ab8d6d0.json"/>
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-26"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-26@東京大学">
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-26"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/337f4324c96c616d4ca93a074f23d108.json"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-02-06@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/30341569eddb7c6bc719f7a96238699e.json"/>
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-02-06"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-03@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-03"/>
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/57759404d5e3660876f7db897f3951e1.json"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-03-02@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/be71070585c9c19fab39ff382d7511be.json"/>
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-03-02"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-03-21@東京大学">
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/4663c8c2ae3dfadc5365f313620708fb.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-03-21"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-36@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/c913c370b977f00216e2bb04660c62d7.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-36"/>
-    <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-13@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-13"/>
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/cd640338c2ccb7a24524987b2df448a9.json"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-03-05@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/5af1d4463c98615206d09eb9fea5f924.json"/>
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-03-05"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-03-01@東京大学">
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/deef6322ce8ed87a5312e47fc4316df3.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-03-01"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-39@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/9d3bd64e736ef0d81d4f64abbf1c15c8.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-39"/>
-    <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-48@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-48"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/f035ebcc9eddedd84c199114ddb78923.json"/>
-    <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-37@東京大学">
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-37"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/3b360173d7646c3cdf01ab0215675409.json"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-03-31@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/51e05259844db46d4271cbf9fc734ab4.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-03-31"/>
-    <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-47@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/478c06fe0ad100f50e947be33039cc16.json"/>
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-47"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-05-05@東京大学">
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-05-05"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/3f7fc0ed0336d9a1546bd7bc5b151999.json"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-44@東京大学">
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-44"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/d99b060b276cdd191adb12ef941639df.json"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-11@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/5857875e5553c444664c136f0a16626a.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-11"/>
-    <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-17@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/5f9cec2b8c1fc28d3dc29175a8c896f3.json"/>
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-17"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-19@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/08344196ad7e5892094b5f659aa3f29d.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-19"/>
-    <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/ad6f5a3c1c34ae442910c9927376e612.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-29"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-20@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-20"/>
     <ns1:organization>東京大学</ns1:organization>
     <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/fdbfc434bf0dc57850779ff893be6b89.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-20"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-03-12@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-03-12"/>
+  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-03-03@東京大学">
     <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/7bed82dbd6ef7d885dda1f0ba9a1e78b.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-03-03"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/61e76cfb54177327e81b2d581c68bdc8.json"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-10@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/526e3b0fbc22735186b025d55e0a8a2b.json"/>
+  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-06@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/63c38d74ab47a59cf628512fb3ddb757.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-06"/>
     <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-10"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-10@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/2ac0b2b9081a62b642dfdc7918c5e141.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-10"/>
-    <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-16@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/28dc5b656d2519c18c4b855d63434cdb.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-16"/>
-    <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-03-14@東京大学">
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-03-14"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/b7d6e4ce2727157b8029d046ed32cd09.json"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-05@東京大学">
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-05"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/9de6c3e34b03acf6bf0a8b7989f177ee.json"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-05-17@東京大学">
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/cf8863871ccc34f415c2777686e1162d.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-05-17"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-21@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-21"/>
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/1bf819a82b008823e75a214c977fac7a.json"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-03-03@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/e5d6a4760f6cd909bf753e0e163e2f89.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-03-03"/>
-    <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-08@東京大学">
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/4c4d3806bbda8d248562097092ce16c0.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-08"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-22@東京大学">
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-22"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/1ff8dab7715c85b5dbbfc4914bca3592.json"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-05-28@東京大学">
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-05-28"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/07bc1b2a1533adcf46b5f63aa4f79585.json"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-34@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/5b93933d8087e2edefb8eecd3c293625.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-34"/>
-    <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-13@東京大学">
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/40f4bd5e9c6efeaecf384c120cd9a509.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-13"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-19@東京大学">
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-19"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/22f9d06de7d7be1b614c5318b2f6ff48.json"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-07@東京大学">
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-07"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/59009bd7d64a0c81dce633ce08aac7a9.json"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-03-18@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-03-18"/>
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/df1164612b7348b432f50e4dd2422099.json"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-08@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-08"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/6bfb365c38645b45f0a69619426d1796.json"/>
-    <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-35@東京大学">
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/20b46ff020eb723066fc24eea4d7ba93.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-35"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-32@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/249cb4eaa54a138052569ea6e5b0cc6c.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-32"/>
-    <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-04-05@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-04-05"/>
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/dc813948b6da70ce237b9d8e5e6941f8.json"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-04@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-04"/>
     <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/5cbd716cff5d8555cac20cc7b3cbf905.json"/>
     <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-04"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-05-06@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/a86807cc8c03f0accb056311172eaa7f.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-05-06"/>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-23@東京大学">
     <ns1:organization>東京大学</ns1:organization>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-23"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/b082851099886d7edae7bd1d2c9f04d6.json"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-05-09@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/5ad3c4471bd7ef1d1e628ed735dc4d90.json"/>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-14@東京大学">
     <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-05-09"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/e07b61e4364d042abbfd2c5e683685bc.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-14"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-03-20@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/97eb2e2229ecac4da0cc75a34c04f8fc.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-03-20"/>
+  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-02-05@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/65bdbf4cf4c2eb96120f320182be745b.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-02-05"/>
     <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-40@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-40"/>
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/6ec5e6683042dc01807bfa80c054a311.json"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/resource/僞絳帖-04-07@東京大学">
     <ns1:organization>東京大学</ns1:organization>
     <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-04-07"/>
     <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/64ebba286131abaa5fa27a2bc4666dcc.json"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-13@東京大学">
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-25@東京大学">
     <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-13"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/00cc33d052f96ead7a7ebfc48fee367f.json"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/1c860225ccc313063f26705d5495a2f1.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-25"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-35@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-35"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/2aa73dec1369deb846de628e58b5b2e5.json"/>
+  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-11@東京大学">
     <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-12@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-12"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/60fb75faf2415af4f75410fca3bc0daf.json"/>
-    <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-51@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/9703872d1be2f462b7e2baf23a55c90b.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-51"/>
-    <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-24@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/909216379d0286200577569265c86965.json"/>
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-24"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-03-02@東京大学">
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/7c989415a633237c10d4885868e535b1.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-03-02"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-23@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-23"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/b082851099886d7edae7bd1d2c9f04d6.json"/>
-    <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-39@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/4f9e7bfbee26a7e2bcfc4955fcf5446f.json"/>
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-39"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-05-24@東京大学">
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/e20764ca39beffb98009a3137a3d820c.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-05-24"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-03-15@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-03-15"/>
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/1b18c13412008ac9ee82bad25ef4b7af.json"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-03-22@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-03-22"/>
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/e2299df98826bc21febaf3f32d87a4e0.json"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-42@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/9257cda93a0544884c91131b1d5124dc.json"/>
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-42"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-03-16@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-03-16"/>
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/f6503d17719cef77dce3daadefa6b5a8.json"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-03-02@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/59fa76a4a70cbdc7864777450bdfd0f3.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-03-02"/>
-    <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-04-09@東京大学">
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/a50fbe7ad68f45ec052811923218cda2.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-04-09"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-20@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/f05fcc39abc2e91f66a35844f9265a93.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-20"/>
-    <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-04-14@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-04-14"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/84f538d1860e0f6c3367282be81b78fe.json"/>
-    <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-04-04@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-04-04"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/2898329eec765bf58c7a659687da3cce.json"/>
-    <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-03-16@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-03-16"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/177d53aa01d3df32f286e0e2f3a38891.json"/>
-    <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-41@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/224ac1168426f0f678e1760f80bba1be.json"/>
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-41"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-23@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/3aae34bbbcc5e7a59c03c76261ad00df.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-23"/>
-    <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-26@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-26"/>
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/e0e6668ac8c850813620c5a23eba1b79.json"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-21@東京大学">
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/570904bb293c961d71d1f26fd06255f6.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-21"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-11"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/5857875e5553c444664c136f0a16626a.json"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-45@東京大学">
-    <ns1:organization>東京大学</ns1:organization>
     <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/e0d220893541d8720e18ec2d9b402d26.json"/>
+    <ns1:organization>東京大学</ns1:organization>
     <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-45"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-38@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-38"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/1a61a49cbfb5a26b9ad75e7f3365d6f0.json"/>
+  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-03-34@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/7a8d633b5f20f89303687ed21a02d94c.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-03-34"/>
     <ns1:organization>東京大学</ns1:organization>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-05-07@東京大学">
+  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-03-13@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-03-13"/>
     <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/372157099b6025c320f81d8184018377.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-05-07"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/4a417c7bcee272d30352ea4781c43635.json"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-05-22@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-05-22"/>
+  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-03-16@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/177d53aa01d3df32f286e0e2f3a38891.json"/>
     <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/8b6036eb88c438b3238eaed28e4e1e63.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-03-16"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-14@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/e07b61e4364d042abbfd2c5e683685bc.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-14"/>
+  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-10@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-10"/>
     <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/4ad3a164c33edf2b4c36bd370ac4f5da.json"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-05-03@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/06bdcb860f8cb12888277fcd4685564a.json"/>
+  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-05-19@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-05-19"/>
     <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-05-03"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/44e76131b701d4ac66a8b623a5a8094c.json"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-07@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-07"/>
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/8d8781c0b9c4e6a21c34b863f36cff00.json"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-05-16@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/6b2b825c0df394a8dcd00bf9500261d5.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-05-16"/>
+  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-03-05@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-03-05"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/8381acab5d883cb54cdd56b503d94bc9.json"/>
     <ns1:organization>東京大学</ns1:organization>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-03@東京大学">
+  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-03-01@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/deef6322ce8ed87a5312e47fc4316df3.json"/>
     <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-03"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/8ec176e2bf6c3c04da0d0f02a930fe89.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-03-01"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-12@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-12"/>
+  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-04-10@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/6a56105328bb6d9e32c8aed0c4aadbbb.json"/>
     <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/b4be2f65b96afef02114eecff7eac386.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-04-10"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-04-02@東京大学">
+  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-03-23@東京大学">
     <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-04-02"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/573d5eb00ab228ebe4b314567d3bced7.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-03-23"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/4267037a1924baf622dbc683006877f2.json"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-14@東京大学">
+  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-03@東京大学">
     <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-14"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/da35ac911fead458a3c451f7b9147acc.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-03"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/6807438ada88a861c6bf76eec64aeabc.json"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-25@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/f154082d53b1c4a2d86c5b979f7b0991.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-25"/>
-    <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-16@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/88bae9ec0e814afec9be2cc0078814b1.json"/>
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-16"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-19@東京大学">
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/02295cb0645add5eba6a5e930385493e.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-19"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-37@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-37"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/6e4e1dae6b652a897a19af3035c4184d.json"/>
-    <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-05-11@東京大学">
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/0954890f68b24f32094680c6d683c0de.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-05-11"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-15@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-15"/>
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/800a1f9bae7b92f929b507a85c900895.json"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-07@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-07"/>
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/7f1a17ac1271122fde90586558f3c6c4.json"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-01-02@東京大学">
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-01-02"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/d4edb28a70c823e19b26e7660ba4cf5d.json"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-06@東京大学">
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-06"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/da9cd732bda4fe95d6bcb1f986085522.json"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-35@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-35"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/18de5ec0aa9c7f7f859c4a3dea81a2d2.json"/>
-    <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-12@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-12"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/b7f6e19b818e8e209c7a3de2664c9d39.json"/>
-    <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-01@東京大学">
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-01"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/799dd99d7d99158e3b8b623a74b6601f.json"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-04-12@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-04-12"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/ef21dc5b90ae532a7b8a98335d4f32b8.json"/>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-39@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-39"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/e71135b15c3cac9bd1713919411e8935.json"/>
     <ns1:organization>東京大学</ns1:organization>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-09@東京大学">
@@ -498,344 +128,454 @@
     <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-09"/>
     <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/78ae1ee830221f27135a6d1344c3c445.json"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-03-34@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-03-34"/>
+  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-04@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/4d2e8482bbbce2fa2426b5df869c117c.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-04"/>
     <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/7a8d633b5f20f89303687ed21a02d94c.json"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-05@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/b4fd8abb79f3cc12a770a1a1c9675c91.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-05"/>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-07@東京大学">
     <ns1:organization>東京大学</ns1:organization>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-07"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/07138d50371a0116fa35b6a19e91c309.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-26@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/c7241abf39169b2794fbdc060ab8d6d0.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-26"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-43@東京大学">
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-43"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/6c38d2981b101059278ac401f796c3e4.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-05-04@東京大学">
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/f033cff742671327a32ad9952a4d1268.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-05-04"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-03-05@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-03-05"/>
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/5af1d4463c98615206d09eb9fea5f924.json"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/resource/僞絳帖-04-03@東京大学">
     <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-04-03"/>
     <ns1:organization>東京大学</ns1:organization>
     <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/00078ee99dc5c3e2e09b23344689f6d6.json"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-31@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/130569e8b6ab6bca32a4e10a02e5e6e1.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-31"/>
+  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-04-02@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/573d5eb00ab228ebe4b314567d3bced7.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-04-02"/>
     <ns1:organization>東京大学</ns1:organization>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-41@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-41"/>
     <ns1:organization>東京大学</ns1:organization>
     <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/4eec04d558c53bb581c116dbe980087b.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-41"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-04-01@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/a3ce043fed2d677514aaac872e987200.json"/>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-40@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/6ec5e6683042dc01807bfa80c054a311.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-40"/>
     <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-04-01"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-03-11@東京大学">
+  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-04-12@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/ef21dc5b90ae532a7b8a98335d4f32b8.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-04-12"/>
     <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/73fabcf3acf91329609262bad4f1613e.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-03-11"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-13@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-13"/>
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/40f4bd5e9c6efeaecf384c120cd9a509.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-30@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-30"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/7fac9c1332adee7dd60251b567dc9b81.json"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-16@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/28dc5b656d2519c18c4b855d63434cdb.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-16"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-13@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/84bd91b0fa606243256684d492bf0bf7.json"/>
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-13"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-05@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/b4fd8abb79f3cc12a770a1a1c9675c91.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-05"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-47@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-47"/>
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/478c06fe0ad100f50e947be33039cc16.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-04-13@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/2a620a672df60f02d07b5bd40acc245a.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-04-13"/>
+    <ns1:organization>東京大学</ns1:organization>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-17@東京大学">
+    <ns1:organization>東京大学</ns1:organization>
     <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/69db852eaba343ea416f235d3216beaa.json"/>
     <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-17"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-03-17@東京大学">
     <ns1:organization>東京大学</ns1:organization>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-03-17"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/8c273452d1cb4f9552295c5d663f51e5.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-43@東京大学">
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-43"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/fd9a3f776dbf42e4725dc4bcc7ebf3af.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-18@東京大学">
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/a7ad969bdd012245dc227757e2efaf58.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-18"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-19@東京大学">
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/08344196ad7e5892094b5f659aa3f29d.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-19"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-01@東京大学">
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-01"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/78e8f9fa49d1e2c93d0cbb0dccdcd11a.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-07@東京大学">
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-07"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/7f1a17ac1271122fde90586558f3c6c4.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-19@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-19"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/22f9d06de7d7be1b614c5318b2f6ff48.json"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-02-06@東京大学">
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-02-06"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/30341569eddb7c6bc719f7a96238699e.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-06@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-06"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/da9cd732bda4fe95d6bcb1f986085522.json"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-03-29@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-03-29"/>
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/75befbf003a83d7312a463cd442c4e73.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-44@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/d99b060b276cdd191adb12ef941639df.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-44"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-39@東京大学">
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-39"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/9d3bd64e736ef0d81d4f64abbf1c15c8.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-03-02@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-03-02"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/7c989415a633237c10d4885868e535b1.json"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-03-03@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-03-03"/>
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/e5d6a4760f6cd909bf753e0e163e2f89.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-26@東京大学">
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/9301cf43a1b974613fffe57faea9dee8.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-26"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-07@東京大学">
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/59009bd7d64a0c81dce633ce08aac7a9.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-07"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-27@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-27"/>
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/80cf3d27edb83005a17e0228e2d9dd1e.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-12@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-12"/>
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/60fb75faf2415af4f75410fca3bc0daf.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-34@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-34"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/826624664afebc7f944017450942d877.json"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-09@東京大学">
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/07baf4800f21b8f08d0a317ea49e1d7c.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-09"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-17@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/5f9cec2b8c1fc28d3dc29175a8c896f3.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-17"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-22@東京大学">
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-22"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/1ff8dab7715c85b5dbbfc4914bca3592.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-18@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/fd614e55d26189cf17507e2a94b44ae5.json"/>
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-18"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-03-14@東京大学">
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/b7d6e4ce2727157b8029d046ed32cd09.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-03-14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-42@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-42"/>
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/9257cda93a0544884c91131b1d5124dc.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-03-09@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/c6b169c767f2f16c8b66aeed5da91953.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-03-09"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-05-15@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/3cfddad1898281910e0983a68922557f.json"/>
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-05-15"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-22@東京大学">
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/44da62ee519769868a8247d928a67fdb.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-22"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-03@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-03"/>
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/8ec176e2bf6c3c04da0d0f02a930fe89.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-01-02@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/d4edb28a70c823e19b26e7660ba4cf5d.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-01-02"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-24@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/e52eeef8f547797c05d7421860027d93.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-24"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-49@東京大学">
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-49"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/d3ab1b441f8faebcb49b5ea7deec6fd9.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-03-13@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-03-13"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/9570c48a70601e7c9d6954bfe6ee6326.json"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-48@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-48"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/74a2934d3cbc86f441071be6bbd6543c.json"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-05-22@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/8b6036eb88c438b3238eaed28e4e1e63.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-05-22"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-15@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-15"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/800a1f9bae7b92f929b507a85c900895.json"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-02@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-02"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/61b2dddf7228489da31c644de5eaea4b.json"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-55@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/130b95b0f64ed66f38d9d1e858f119ed.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-55"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-03-32@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/25a8da4999b56647174cd7224cf24bf6.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-03-32"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-03-12@東京大学">
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/7bed82dbd6ef7d885dda1f0ba9a1e78b.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-03-12"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-03-11@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-03-11"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/73fabcf3acf91329609262bad4f1613e.json"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-03-16@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-03-16"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/f6503d17719cef77dce3daadefa6b5a8.json"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-03-07@東京大学">
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/8962bb42dbefc2259384f7def617d63e.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-03-07"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-33@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/3f7077e444974d19af5bec8b45838dc9.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-33"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-39@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-39"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/4f9e7bfbee26a7e2bcfc4955fcf5446f.json"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-36@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/59c7d8a6035507572e386c713431c95f.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-36"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-01@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-01"/>
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/799dd99d7d99158e3b8b623a74b6601f.json"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/resource/僞絳帖-05-26@東京大学">
     <ns1:organization>東京大学</ns1:organization>
     <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/2b261cc17fdd92f32fd39f880e6fb7f7.json"/>
     <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-05-26"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-03-10@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/35836985b73e172adff1f62506ba31ac.json"/>
+  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-11@東京大学">
     <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-03-10"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-11"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/0efe3ac1b1a435b04c6c70606db0f3f6.json"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-45@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/b38936bbf348e447f808536115e91a36.json"/>
+  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-13@東京大学">
     <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-45"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/cd640338c2ccb7a24524987b2df448a9.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-13"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-04-13@東京大学">
+  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-03-15@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-03-15"/>
     <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-04-13"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/2a620a672df60f02d07b5bd40acc245a.json"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-23@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-23"/>
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/b2d2c6f4a45002fe600db92734876ada.json"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-27@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-27"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/2daf5c93e451d7e06ab57ca597826e8c.json"/>
-    <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-03@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/6807438ada88a861c6bf76eec64aeabc.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-03"/>
-    <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-34@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/826624664afebc7f944017450942d877.json"/>
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-34"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-39@東京大学">
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/e71135b15c3cac9bd1713919411e8935.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-39"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-03-08@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-03-08"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/cef87da6af2836ec965fe1ee74c2bd2e.json"/>
-    <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-03-03@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/61e76cfb54177327e81b2d581c68bdc8.json"/>
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-03-03"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-03-32@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/25a8da4999b56647174cd7224cf24bf6.json"/>
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-03-32"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-21@東京大学">
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/58ad02fbbc0964eb78345f2d8ce37787.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-21"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-18@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/a7ad969bdd012245dc227757e2efaf58.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-18"/>
-    <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-14@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/e802342cb347a3cf648560054e70d93b.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-14"/>
-    <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-02@東京大学">
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-02"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/61b2dddf7228489da31c644de5eaea4b.json"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-30@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-30"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/d4cef25edf3b3916a69e29958befae13.json"/>
-    <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-33@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-33"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/3f7077e444974d19af5bec8b45838dc9.json"/>
-    <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-30@東京大学">
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/7fac9c1332adee7dd60251b567dc9b81.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-30"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-03-19@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/a67413ccd94d84dc80a0812e5823e416.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-03-19"/>
-    <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-29@東京大学">
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-29"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/ad6f5a3c1c34ae442910c9927376e612.json"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-03-17@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/8c273452d1cb4f9552295c5d663f51e5.json"/>
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-03-17"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-05-10@東京大学">
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-05-10"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/c13ab1cc764ee892e2dce70bdd2806cd.json"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-03-05@東京大学">
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/8381acab5d883cb54cdd56b503d94bc9.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-03-05"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-05-01@東京大学">
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/e9d46727463fb61e181709322387a52c.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-05-01"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-46@東京大学">
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-46"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/d5eddc285bc96db630af3430d56c3a95.json"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-02@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-02"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/7acb4af79953b53e44defd866b990dff.json"/>
-    <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-58@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-58"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/fb26900e0ef7aebf9cdf50e0aada6a45.json"/>
-    <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-05-08@東京大学">
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-05-08"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/15772f71381c8d99cf3ba95ecb5920c5.json"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-13@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/84bd91b0fa606243256684d492bf0bf7.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-13"/>
-    <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-36@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/ab703e8d599a4869b2292bfae5623593.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-36"/>
-    <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-03-19@東京大学">
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-03-19"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/36d2b5dbef5305041ae115af1a58647a.json"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-05-15@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-05-15"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/3cfddad1898281910e0983a68922557f.json"/>
-    <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-40@東京大学">
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/35ef40aae88bc84419b70abf9bb52a98.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-40"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-03-01@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-03-01"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/1232302c057413b2fefc412019a58d47.json"/>
-    <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-01@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-01"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/07561f569d490f111e70fa5a2486a361.json"/>
-    <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-03-13@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/9570c48a70601e7c9d6954bfe6ee6326.json"/>
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-03-13"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-03-07@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/8962bb42dbefc2259384f7def617d63e.json"/>
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-03-07"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-04-10@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/6a56105328bb6d9e32c8aed0c4aadbbb.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-04-10"/>
-    <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-32@東京大学">
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-32"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/c9e2749183ed8f094a528d65e7be01b2.json"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-38@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-38"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/f9f3c2c0c0c5509f9ac9e664375d6674.json"/>
-    <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-21@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-21"/>
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/b373ded514367e4b23aec00d2cc3e737.json"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-02-03@東京大学">
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-02-03"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/f3f10d38c776a8a9c94fa4aa4e101e1e.json"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-36@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-36"/>
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/59c7d8a6035507572e386c713431c95f.json"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-06@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/63c38d74ab47a59cf628512fb3ddb757.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-06"/>
-    <ns1:organization>東京大学</ns1:organization>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-55@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/130b95b0f64ed66f38d9d1e858f119ed.json"/>
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-55"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/1b18c13412008ac9ee82bad25ef4b7af.json"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-05@東京大学">
     <ns1:organization>東京大学</ns1:organization>
     <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/c69836d0683835660d601dabedfd96c4.json"/>
     <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-05"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-04-08@東京大学">
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-04-08"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/b95e19b3993ec1a63ca10b3e7e2ce2c9.json"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-02-02@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/ffab36a9385d92417b12a80b69d6d1f6.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-02-02"/>
+  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-02-03@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-02-03"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/f3f10d38c776a8a9c94fa4aa4e101e1e.json"/>
     <ns1:organization>東京大学</ns1:organization>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-25@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-25"/>
+  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-35@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/18de5ec0aa9c7f7f859c4a3dea81a2d2.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-35"/>
     <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/1c860225ccc313063f26705d5495a2f1.json"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-27@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/08c6b96236971cc57d8012d364c1e11e.json"/>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-08@東京大学">
     <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-27"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/4c4d3806bbda8d248562097092ce16c0.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-08"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-44@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-44"/>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-26@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-26"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/e0e6668ac8c850813620c5a23eba1b79.json"/>
     <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/389141365418568ed300603759007534.json"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-59@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-59"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/8b8fac46bef44fb9ca73a7d3a10b579f.json"/>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-11@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/e3ed9b07b2ede323ef7fc3731838648c.json"/>
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-11"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-05-16@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-05-16"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/6b2b825c0df394a8dcd00bf9500261d5.json"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-48@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-48"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/f035ebcc9eddedd84c199114ddb78923.json"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-03-22@東京大学">
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/e2299df98826bc21febaf3f32d87a4e0.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-03-22"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-31@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-31"/>
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/130569e8b6ab6bca32a4e10a02e5e6e1.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-05-09@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-05-09"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/5ad3c4471bd7ef1d1e628ed735dc4d90.json"/>
     <ns1:organization>東京大学</ns1:organization>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/resource/停雲館帖-01-08@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/停雲館帖-01-08"/>
     <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/7a79b09904a99ca6505366443beb9c39.json"/>
     <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/停雲館帖-01-08"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-10@東京大学">
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-02@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-02"/>
     <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/4ad3a164c33edf2b4c36bd370ac4f5da.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-10"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/7acb4af79953b53e44defd866b990dff.json"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-43@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/fd9a3f776dbf42e4725dc4bcc7ebf3af.json"/>
+  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-01@東京大学">
     <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-43"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/07561f569d490f111e70fa5a2486a361.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-01"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-24@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-24"/>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-59@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/8b8fac46bef44fb9ca73a7d3a10b579f.json"/>
     <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/e52eeef8f547797c05d7421860027d93.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-59"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-03-23@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/4267037a1924baf622dbc683006877f2.json"/>
+  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-03-01@東京大学">
     <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-03-23"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/1232302c057413b2fefc412019a58d47.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-03-01"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-02-05@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-02-05"/>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-57@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-57"/>
     <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/65bdbf4cf4c2eb96120f320182be745b.json"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/e9fdf89809cda911af6252dcf1bbfb88.json"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-27@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/80cf3d27edb83005a17e0228e2d9dd1e.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-27"/>
+  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-40@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-40"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/35ef40aae88bc84419b70abf9bb52a98.json"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-05-28@東京大学">
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/07bc1b2a1533adcf46b5f63aa4f79585.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-05-28"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-03@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-03"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/78a5c08a6e62aff743537d631549d9f9.json"/>
     <ns1:organization>東京大学</ns1:organization>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-02-01@東京大学">
@@ -843,9 +583,214 @@
     <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-02-01"/>
     <ns1:organization>東京大学</ns1:organization>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-05-04@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/f033cff742671327a32ad9952a4d1268.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-05-04"/>
+  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-07@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/8d8781c0b9c4e6a21c34b863f36cff00.json"/>
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-07"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-05-08@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/15772f71381c8d99cf3ba95ecb5920c5.json"/>
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-05-08"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-30@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/d4cef25edf3b3916a69e29958befae13.json"/>
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-32@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-32"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/c9e2749183ed8f094a528d65e7be01b2.json"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-16@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/88bae9ec0e814afec9be2cc0078814b1.json"/>
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-16"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-03-19@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/36d2b5dbef5305041ae115af1a58647a.json"/>
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-03-19"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-03-18@東京大学">
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-03-18"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/df1164612b7348b432f50e4dd2422099.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-04-04@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-04-04"/>
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/2898329eec765bf58c7a659687da3cce.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-51@東京大学">
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/9703872d1be2f462b7e2baf23a55c90b.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-51"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-05-07@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/372157099b6025c320f81d8184018377.json"/>
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-05-07"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-15@東京大学">
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-15"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/acb3851dba3c174f8f1dd0b195841e4b.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-05-17@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/cf8863871ccc34f415c2777686e1162d.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-05-17"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-03-10@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/35836985b73e172adff1f62506ba31ac.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-03-10"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-05-24@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/e20764ca39beffb98009a3137a3d820c.json"/>
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-05-24"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-10@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/2ac0b2b9081a62b642dfdc7918c5e141.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-10"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-03-20@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/97eb2e2229ecac4da0cc75a34c04f8fc.json"/>
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-03-20"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-04-09@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-04-09"/>
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/a50fbe7ad68f45ec052811923218cda2.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-03@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-03"/>
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/57759404d5e3660876f7db897f3951e1.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-05-25@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-05-25"/>
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/2af6fe3716a13d23fdbdfbaa142d1570.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-13@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/00cc33d052f96ead7a7ebfc48fee367f.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-13"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-33@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-33"/>
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/18ee04be3dcb3b26f35ba093774f6a4d.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-23@東京大学">
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-23"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/b2d2c6f4a45002fe600db92734876ada.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-41@東京大学">
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/224ac1168426f0f678e1760f80bba1be.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-41"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-50@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/32c8baa1f420f175c1679bebeebe16dc.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-50"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-46@東京大学">
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-46"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/d5eddc285bc96db630af3430d56c3a95.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-03-02@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-03-02"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/be71070585c9c19fab39ff382d7511be.json"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-12@東京大学">
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-12"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/b7f6e19b818e8e209c7a3de2664c9d39.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-21@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-21"/>
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/58ad02fbbc0964eb78345f2d8ce37787.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-03-21@東京大学">
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-03-21"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/4663c8c2ae3dfadc5365f313620708fb.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-36@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/c913c370b977f00216e2bb04660c62d7.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-36"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-03-02@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-03-02"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/59fa76a4a70cbdc7864777450bdfd0f3.json"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-27@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-27"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/08c6b96236971cc57d8012d364c1e11e.json"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-20@東京大学">
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-20"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/f05fcc39abc2e91f66a35844f9265a93.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-05-01@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-05-01"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/e9d46727463fb61e181709322387a52c.json"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-36@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-36"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/ab703e8d599a4869b2292bfae5623593.json"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-37@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/3b360173d7646c3cdf01ab0215675409.json"/>
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-37"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-05-12@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-05-12"/>
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/45a29db19e9c9921ada4fcc1d5cca2f5.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-21@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/b373ded514367e4b23aec00d2cc3e737.json"/>
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-21"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-04-14@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-04-14"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/84f538d1860e0f6c3367282be81b78fe.json"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-12@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/b4be2f65b96afef02114eecff7eac386.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-12"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-58@東京大学">
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-58"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/fb26900e0ef7aebf9cdf50e0aada6a45.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-21@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-21"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/1bf819a82b008823e75a214c977fac7a.json"/>
     <ns1:organization>東京大学</ns1:organization>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-03-28@東京大学">
@@ -853,124 +798,179 @@
     <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/a42f643e3be6a82d9e859a2c20e07fb9.json"/>
     <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-03-28"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-03-29@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-03-29"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/75befbf003a83d7312a463cd442c4e73.json"/>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-08@東京大学">
     <ns1:organization>東京大学</ns1:organization>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-08"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/6bfb365c38645b45f0a69619426d1796.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-35@東京大学">
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/20b46ff020eb723066fc24eea4d7ba93.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-35"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-04-08@東京大学">
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-04-08"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/b95e19b3993ec1a63ca10b3e7e2ce2c9.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-35@東京大学">
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-35"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/2aa73dec1369deb846de628e58b5b2e5.json"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/resource/僞絳帖-03-15@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/6b4b6ab05a4d735c2ecd169181a35e0a.json"/>
     <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/6b4b6ab05a4d735c2ecd169181a35e0a.json"/>
     <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-03-15"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-03@東京大学">
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-03"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/78a5c08a6e62aff743537d631549d9f9.json"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-01@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-01"/>
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/78e8f9fa49d1e2c93d0cbb0dccdcd11a.json"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-03-09@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-03-09"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/c6b169c767f2f16c8b66aeed5da91953.json"/>
+  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-05-06@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-05-06"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/a86807cc8c03f0accb056311172eaa7f.json"/>
     <ns1:organization>東京大学</ns1:organization>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-05-19@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/44e76131b701d4ac66a8b623a5a8094c.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-05-19"/>
+  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-05-03@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-05-03"/>
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/06bdcb860f8cb12888277fcd4685564a.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-26@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-26"/>
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/337f4324c96c616d4ca93a074f23d108.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-24@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-24"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/909216379d0286200577569265c86965.json"/>
     <ns1:organization>東京大学</ns1:organization>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-03-13@東京大学">
+  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-05-18@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/ea488b1348cdb2fe7b93655ada0a4067.json"/>
     <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/4a417c7bcee272d30352ea4781c43635.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-03-13"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-05-18"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-22@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-22"/>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-37@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/6e4e1dae6b652a897a19af3035c4184d.json"/>
     <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/44da62ee519769868a8247d928a67fdb.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-37"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-49@東京大学">
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-27@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/2daf5c93e451d7e06ab57ca597826e8c.json"/>
     <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/d3ab1b441f8faebcb49b5ea7deec6fd9.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-49"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-27"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-18@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-18"/>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-38@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/1a61a49cbfb5a26b9ad75e7f3365d6f0.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-38"/>
     <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/fd614e55d26189cf17507e2a94b44ae5.json"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-11@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/e3ed9b07b2ede323ef7fc3731838648c.json"/>
+  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-10@東京大学">
     <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-11"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-05-12@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/45a29db19e9c9921ada4fcc1d5cca2f5.json"/>
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-05-12"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-05-25@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-05-25"/>
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/2af6fe3716a13d23fdbdfbaa142d1570.json"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/526e3b0fbc22735186b025d55e0a8a2b.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-10"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-23@東京大学">
     <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-23"/>
     <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/75bf3e390b1110360b9d9b64f120e9bc.json"/>
     <ns1:organization>東京大学</ns1:organization>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-15@東京大学">
+  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-25@東京大学">
     <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-15"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/acb3851dba3c174f8f1dd0b195841e4b.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-25"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/f154082d53b1c4a2d86c5b979f7b0991.json"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-43@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/6c38d2981b101059278ac401f796c3e4.json"/>
-    <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-43"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-04@東京大学">
-    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-04"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/4d2e8482bbbce2fa2426b5df869c117c.json"/>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-32@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/249cb4eaa54a138052569ea6e5b0cc6c.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-32"/>
     <ns1:organization>東京大学</ns1:organization>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-57@東京大学">
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-05@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-05"/>
     <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/e9fdf89809cda911af6252dcf1bbfb88.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-57"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/9de6c3e34b03acf6bf0a8b7989f177ee.json"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-33@東京大学">
+  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-03-08@東京大学">
     <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/18ee04be3dcb3b26f35ba093774f6a4d.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-33"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/cef87da6af2836ec965fe1ee74c2bd2e.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-03-08"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-48@東京大学">
+  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-05-11@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/0954890f68b24f32094680c6d683c0de.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-05-11"/>
     <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/74a2934d3cbc86f441071be6bbd6543c.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-48"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-09@東京大学">
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-23@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-23"/>
     <ns1:organization>東京大学</ns1:organization>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/07baf4800f21b8f08d0a317ea49e1d7c.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-09"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/3aae34bbbcc5e7a59c03c76261ad00df.json"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-26@東京大学">
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-38@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-38"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/f9f3c2c0c0c5509f9ac9e664375d6674.json"/>
     <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-26"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/9301cf43a1b974613fffe57faea9dee8.json"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-05-18@東京大学">
+  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-03-19@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-03-19"/>
     <ns1:organization>東京大学</ns1:organization>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-05-18"/>
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/ea488b1348cdb2fe7b93655ada0a4067.json"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/a67413ccd94d84dc80a0812e5823e416.json"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-11@東京大学">
-    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/0efe3ac1b1a435b04c6c70606db0f3f6.json"/>
-    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-11"/>
+  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-05-05@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-05-05"/>
     <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/3f7fc0ed0336d9a1546bd7bc5b151999.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-45@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-45"/>
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/b38936bbf348e447f808536115e91a36.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-04-05@東京大学">
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/dc813948b6da70ce237b9d8e5e6941f8.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-04-05"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-08-34@東京大学">
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-08-34"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/5b93933d8087e2edefb8eecd3c293625.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-21@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/570904bb293c961d71d1f26fd06255f6.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-21"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-03-31@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-03-31"/>
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/51e05259844db46d4271cbf9fc734ab4.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-14@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/e802342cb347a3cf648560054e70d93b.json"/>
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/戲鴻堂法書-16-14@東京大学">
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/da35ac911fead458a3c451f7b9147acc.json"/>
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/戲鴻堂法書-16-14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-04-19@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-04-19"/>
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/02295cb0645add5eba6a5e930385493e.json"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/淳化閣帖-06-44@東京大学">
+    <ns1:differentEdition rdf:resource="http://example.org/resource/淳化閣帖-06-44"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/389141365418568ed300603759007534.json"/>
+    <ns1:organization>東京大学</ns1:organization>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/星鳳樓帖-02-02@東京大学">
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/ffab36a9385d92417b12a80b69d6d1f6.json"/>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/星鳳樓帖-02-02"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/resource/僞絳帖-05-10@東京大学">
+    <ns1:organization>東京大学</ns1:organization>
+    <ns1:differentEdition rdf:resource="http://example.org/resource/僞絳帖-05-10"/>
+    <ns1:curation rdf:resource="https://nakamura196.github.io/narita/json/c13ab1cc764ee892e2dce70bdd2806cd.json"/>
   </rdf:Description>
 </rdf:RDF>

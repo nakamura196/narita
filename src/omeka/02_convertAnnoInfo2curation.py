@@ -132,6 +132,7 @@ for o_name in all:
 
     df["@id"] = "https://nakamura196.github.io/narita/json/" + make_md5(o_name) + ".json"
     df["selections"] = []
+    df["label"] = o_name
 
     selection = {}
     df["selections"].append(selection)
