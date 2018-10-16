@@ -15,12 +15,12 @@
                 {
                     "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167803/canvas/p14#xywh=447,397,2814,5336",
                     "@type": "sc:Canvas",
-                    "label": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167803/canvas/p14"
+                    "label": 14
                 },
                 {
                     "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167803/canvas/p15#xywh=5044,469,1084,5315",
                     "@type": "sc:Canvas",
-                    "label": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167803/canvas/p15"
+                    "label": 15
                 }
             ],
             "within": {

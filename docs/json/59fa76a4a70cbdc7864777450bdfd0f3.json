@@ -15,7 +15,7 @@
                 {
                     "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167778/canvas/p3#xywh=1214,861,1747,4767",
                     "@type": "sc:Canvas",
-                    "label": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167778/canvas/p3"
+                    "label": 3
                 }
             ],
             "within": {

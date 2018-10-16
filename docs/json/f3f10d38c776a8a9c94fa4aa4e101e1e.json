@@ -13,24 +13,24 @@
             "label": "Manual curation by IIIF Curation Viewer",
             "members": [
                 {
-                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167777/canvas/p10#xywh=1249,942,5975,4662",
-                    "@type": "sc:Canvas",
-                    "label": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167777/canvas/p10"
-                },
-                {
-                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167777/canvas/p11#xywh=4429,752,2860,5017",
-                    "@type": "sc:Canvas",
-                    "label": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167777/canvas/p11"
-                },
-                {
                     "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167777/canvas/p8#xywh=1249,802,5375,4779",
                     "@type": "sc:Canvas",
-                    "label": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167777/canvas/p8"
+                    "label": 8
                 },
                 {
                     "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167777/canvas/p9#xywh=1249,904,5900,4700",
                     "@type": "sc:Canvas",
-                    "label": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167777/canvas/p9"
+                    "label": 9
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167777/canvas/p10#xywh=1249,942,5975,4662",
+                    "@type": "sc:Canvas",
+                    "label": 10
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167777/canvas/p11#xywh=4429,752,2860,5017",
+                    "@type": "sc:Canvas",
+                    "label": 11
                 }
             ],
             "within": {

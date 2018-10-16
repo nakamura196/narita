@@ -28,6 +28,7 @@ def make_md5(s):
 
 
 def getInfoFromManifest(url):
+
     response = urllib.request.urlopen(url)
     response_body = response.read().decode("utf-8")
     data = json.loads(response_body.split('\n')[0])
@@ -70,7 +71,12 @@ def getInfoFromManifest(url):
             tmp["label"] = label
 
         obj = {}
-        all[o_name]["member"][canvas_id] = canvas_id + "#" + selector
+
+        page = canvas_id
+        if ins == "omeka":
+            page = int(canvas_id.split("/canvas/p")[1])
+
+        all[o_name]["member"][page] = canvas_id + "#" + selector
 
 
 flg = True

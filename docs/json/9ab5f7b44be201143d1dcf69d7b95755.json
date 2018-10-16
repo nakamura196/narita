@@ -15,17 +15,17 @@
                 {
                     "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167777/canvas/p3#xywh=1274,904,5013,4725",
                     "@type": "sc:Canvas",
-                    "label": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167777/canvas/p3"
+                    "label": 3
                 },
                 {
                     "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167777/canvas/p4#xywh=1147,802,6142,4916",
                     "@type": "sc:Canvas",
-                    "label": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167777/canvas/p4"
+                    "label": 4
                 },
                 {
                     "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167777/canvas/p5#xywh=4336,790,2941,4941",
                     "@type": "sc:Canvas",
-                    "label": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167777/canvas/p5"
+                    "label": 5
                 }
             ],
             "within": {
