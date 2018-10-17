@@ -1,0 +1,33 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/narita/json/87d9b73ae2c72c8fd6636fbd6327e910.json",
+    "@type": "cr:Curation",
+    "label": "停雲館帖#01#東方朔畫象贊_(王羲之)@東京大学",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/narita/json/87d9b73ae2c72c8fd6636fbd6327e910.json/range1",
+            "@type": "sc:Range",
+            "label": "Manual curation by IIIF Curation Viewer",
+            "members": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167823/canvas/p13#xywh=1135,981,6055,4573",
+                    "@type": "sc:Canvas",
+                    "label": 13
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167823/canvas/p14#xywh=4350,969,2802,4535",
+                    "@type": "sc:Canvas",
+                    "label": 14
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/uparl/omeka/oa/collections/49/manifest.json",
+                "@label": "停雲館帖 一[A006100-01]",
+                "@type": "sc:Manifest"
+            }
+        }
+    ]
+}

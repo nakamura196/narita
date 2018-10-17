@@ -1,0 +1,33 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/narita/json/3fa841441199f95e4270ffeb4da324f9.json",
+    "@type": "cr:Curation",
+    "label": "停雲館帖#01#曹娥碑_(王羲之)@東京大学",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/narita/json/3fa841441199f95e4270ffeb4da324f9.json/range1",
+            "@type": "sc:Range",
+            "label": "Manual curation by IIIF Curation Viewer",
+            "members": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167823/canvas/p14#xywh=1160,981,2802,4560",
+                    "@type": "sc:Canvas",
+                    "label": 14
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167823/canvas/p15#xywh=1148,931,6004,4560",
+                    "@type": "sc:Canvas",
+                    "label": 15
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/uparl/omeka/oa/collections/49/manifest.json",
+                "@label": "停雲館帖 一[A006100-01]",
+                "@type": "sc:Manifest"
+            }
+        }
+    ]
+}

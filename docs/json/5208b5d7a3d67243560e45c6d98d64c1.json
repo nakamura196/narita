@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/narita/json/5208b5d7a3d67243560e45c6d98d64c1.json",
+    "@type": "cr:Curation",
+    "label": "停雲館帖#01#黄庭經_(王羲之)@東京大学",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/narita/json/5208b5d7a3d67243560e45c6d98d64c1.json/range1",
+            "@type": "sc:Range",
+            "label": "Manual curation by IIIF Curation Viewer",
+            "members": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167823/canvas/p3#xywh=1185,994,5414,4548",
+                    "@type": "sc:Canvas",
+                    "label": 3
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167823/canvas/p4#xywh=1173,944,6017,4610",
+                    "@type": "sc:Canvas",
+                    "label": 4
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167823/canvas/p5#xywh=1173,956,6029,4598",
+                    "@type": "sc:Canvas",
+                    "label": 5
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167823/canvas/p6#xywh=6158,956,1032,4585",
+                    "@type": "sc:Canvas",
+                    "label": 6
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/uparl/omeka/oa/collections/49/manifest.json",
+                "@label": "停雲館帖 一[A006100-01]",
+                "@type": "sc:Manifest"
+            }
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/narita/json/c50988b7d2108e01e7a754f61b241564.json",
+    "@type": "cr:Curation",
+    "label": "停雲館帖#01#樂毅論殘缺本_(王羲之)@東京大学",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/narita/json/c50988b7d2108e01e7a754f61b241564.json/range1",
+            "@type": "sc:Range",
+            "label": "Manual curation by IIIF Curation Viewer",
+            "members": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167823/canvas/p11#xywh=1185,893,2777,4610",
+                    "@type": "sc:Canvas",
+                    "label": 11
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167823/canvas/p12#xywh=1160,931,6017,4585",
+                    "@type": "sc:Canvas",
+                    "label": 12
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/uparl/omeka/oa/collections/49/manifest.json",
+                "@label": "停雲館帖 一[A006100-01]",
+                "@type": "sc:Manifest"
+            }
+        }
+    ]
+}

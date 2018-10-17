@@ -5,7 +5,7 @@
     ],
     "@id": "https://nakamura196.github.io/narita/json/44e76131b701d4ac66a8b623a5a8094c.json",
     "@type": "cr:Curation",
-    "label": "僞絳帖-05-19@東京大学",
+    "label": "僞絳帖#05#得期書帖_(王羲之)@東京大学",
     "selections": [
         {
             "@id": "https://nakamura196.github.io/narita/json/44e76131b701d4ac66a8b623a5a8094c.json/range1",
@@ -13,7 +13,7 @@
             "label": "Manual curation by IIIF Curation Viewer",
             "members": [
                 {
-                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167792/canvas/p12#xywh=1316,871,3689,4695",
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167792/canvas/p12#xywh=4470,871,536,4695",
                     "@type": "sc:Canvas",
                     "label": 12
                 },

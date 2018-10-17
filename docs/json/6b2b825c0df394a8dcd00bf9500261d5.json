@@ -5,7 +5,7 @@
     ],
     "@id": "https://nakamura196.github.io/narita/json/6b2b825c0df394a8dcd00bf9500261d5.json",
     "@type": "cr:Curation",
-    "label": "僞絳帖-05-16@東京大学",
+    "label": "僞絳帖#05#奄至帖_(王羲之)@東京大学",
     "selections": [
         {
             "@id": "https://nakamura196.github.io/narita/json/6b2b825c0df394a8dcd00bf9500261d5.json/range1",
@@ -13,7 +13,7 @@
             "label": "Manual curation by IIIF Curation Viewer",
             "members": [
                 {
-                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167792/canvas/p13#xywh=1341,883,734,4670",
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167792/canvas/p13#xywh=2136,883,3304,4707",
                     "@type": "sc:Canvas",
                     "label": 13
                 }

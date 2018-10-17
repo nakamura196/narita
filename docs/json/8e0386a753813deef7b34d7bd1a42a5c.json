@@ -1,0 +1,28 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/narita/json/8e0386a753813deef7b34d7bd1a42a5c.json",
+    "@type": "cr:Curation",
+    "label": "停雲館帖#04#告姜道帖_(王羲之)@東京大学",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/narita/json/8e0386a753813deef7b34d7bd1a42a5c.json/range1",
+            "@type": "sc:Range",
+            "label": "Manual curation by IIIF Curation Viewer",
+            "members": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167826/canvas/p15#xywh=1241,986,2291,4506",
+                    "@type": "sc:Canvas",
+                    "label": 15
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/uparl/omeka/oa/collections/52/manifest.json",
+                "@label": "停雲館帖 四[A006100-04]",
+                "@type": "sc:Manifest"
+            }
+        }
+    ]
+}

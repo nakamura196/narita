@@ -5,7 +5,7 @@
     ],
     "@id": "https://nakamura196.github.io/narita/json/7a79b09904a99ca6505366443beb9c39.json",
     "@type": "cr:Curation",
-    "label": "停雲館帖-01-08@東京大学",
+    "label": "停雲館帖#01#臨宣示帖_(王羲之)@東京大学",
     "selections": [
         {
             "@id": "https://nakamura196.github.io/narita/json/7a79b09904a99ca6505366443beb9c39.json/range1",
@@ -13,9 +13,19 @@
             "label": "Manual curation by IIIF Curation Viewer",
             "members": [
                 {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167823/canvas/p16#xywh=1135,931,442,4610",
+                    "@type": "sc:Canvas",
+                    "label": 16
+                },
+                {
                     "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167823/canvas/p17#xywh=1200,1008,5938,4544",
                     "@type": "sc:Canvas",
                     "label": 17
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167823/canvas/p18#xywh=4400,969,2759,4560",
+                    "@type": "sc:Canvas",
+                    "label": 18
                 }
             ],
             "within": {

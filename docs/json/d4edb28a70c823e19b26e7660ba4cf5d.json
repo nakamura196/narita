@@ -5,7 +5,7 @@
     ],
     "@id": "https://nakamura196.github.io/narita/json/d4edb28a70c823e19b26e7660ba4cf5d.json",
     "@type": "cr:Curation",
-    "label": "戲鴻堂法書-01-02@東京大学",
+    "label": "戲鴻堂法書#01#樂毅論_(王羲之)@東京大学",
     "selections": [
         {
             "@id": "https://nakamura196.github.io/narita/json/d4edb28a70c823e19b26e7660ba4cf5d.json/range1",
@@ -13,9 +13,24 @@
             "label": "Manual curation by IIIF Curation Viewer",
             "members": [
                 {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167801/canvas/p5#xywh=447,434,2851,5336",
+                    "@type": "sc:Canvas",
+                    "label": 5
+                },
+                {
                     "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167801/canvas/p6#xywh=385,420,5643,5389",
                     "@type": "sc:Canvas",
                     "label": 6
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167801/canvas/p7#xywh=397,434,5692,5323",
+                    "@type": "sc:Canvas",
+                    "label": 7
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167801/canvas/p8#xywh=5145,410,982,5360",
+                    "@type": "sc:Canvas",
+                    "label": 8
                 }
             ],
             "within": {

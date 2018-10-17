@@ -5,13 +5,18 @@
     ],
     "@id": "https://nakamura196.github.io/narita/json/ad6f5a3c1c34ae442910c9927376e612.json",
     "@type": "cr:Curation",
-    "label": "戲鴻堂法書-16-29@東京大学",
+    "label": "戲鴻堂法書#16#袁生帖_(王羲之)@東京大学",
     "selections": [
         {
             "@id": "https://nakamura196.github.io/narita/json/ad6f5a3c1c34ae442910c9927376e612.json/range1",
             "@type": "sc:Range",
             "label": "Manual curation by IIIF Curation Viewer",
             "members": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167816/canvas/p23#xywh=410,397,1486,5348",
+                    "@type": "sc:Canvas",
+                    "label": 23
+                },
                 {
                     "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167816/canvas/p24#xywh=5167,432,912,5376",
                     "@type": "sc:Canvas",

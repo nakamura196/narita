@@ -5,7 +5,7 @@
     ],
     "@id": "https://nakamura196.github.io/narita/json/f033cff742671327a32ad9952a4d1268.json",
     "@type": "cr:Curation",
-    "label": "僞絳帖-05-04@東京大学",
+    "label": "僞絳帖#05#運民帖_(王羲之)@東京大学",
     "selections": [
         {
             "@id": "https://nakamura196.github.io/narita/json/f033cff742671327a32ad9952a4d1268.json/range1",
@@ -16,6 +16,11 @@
                     "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167792/canvas/p6#xywh=1308,826,1337,4740",
                     "@type": "sc:Canvas",
                     "label": 6
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167792/canvas/p7#xywh=6593,883,635,4732",
+                    "@type": "sc:Canvas",
+                    "label": 7
                 }
             ],
             "within": {

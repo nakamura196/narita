@@ -5,7 +5,7 @@
     ],
     "@id": "https://nakamura196.github.io/narita/json/59009bd7d64a0c81dce633ce08aac7a9.json",
     "@type": "cr:Curation",
-    "label": "戲鴻堂法書-16-07@東京大学",
+    "label": "戲鴻堂法書#16#月半帖_(王羲之)@東京大学",
     "selections": [
         {
             "@id": "https://nakamura196.github.io/narita/json/59009bd7d64a0c81dce633ce08aac7a9.json/range1",
@@ -13,7 +13,12 @@
             "label": "Manual curation by IIIF Curation Viewer",
             "members": [
                 {
-                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167816/canvas/p12#xywh=3312,469,2802,5315",
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167816/canvas/p11#xywh=447,410,883,5372",
+                    "@type": "sc:Canvas",
+                    "label": 11
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167816/canvas/p12#xywh=4911,469,1203,5315",
                     "@type": "sc:Canvas",
                     "label": 12
                 }

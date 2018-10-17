@@ -1,0 +1,33 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/narita/json/b59088d64e58c599c3f3fa2c1e049a0e.json",
+    "@type": "cr:Curation",
+    "label": "停雲館帖#01#黄庭經殘缺本_(王羲之)@東京大学",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/narita/json/b59088d64e58c599c3f3fa2c1e049a0e.json/range1",
+            "@type": "sc:Range",
+            "label": "Manual curation by IIIF Curation Viewer",
+            "members": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167823/canvas/p6#xywh=1198,931,2790,4623",
+                    "@type": "sc:Canvas",
+                    "label": 6
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167823/canvas/p7#xywh=3408,994,3769,4548",
+                    "@type": "sc:Canvas",
+                    "label": 7
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/uparl/omeka/oa/collections/49/manifest.json",
+                "@label": "停雲館帖 一[A006100-01]",
+                "@type": "sc:Manifest"
+            }
+        }
+    ]
+}

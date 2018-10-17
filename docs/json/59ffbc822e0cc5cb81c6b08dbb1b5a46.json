@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/narita/json/59ffbc822e0cc5cb81c6b08dbb1b5a46.json",
+    "@type": "cr:Curation",
+    "label": "僞絳帖#03#黃庭經_(王羲之)@東京大学",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/narita/json/59ffbc822e0cc5cb81c6b08dbb1b5a46.json/range1",
+            "@type": "sc:Range",
+            "label": "Manual curation by IIIF Curation Viewer",
+            "members": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167790/canvas/p5#xywh=1316,834,648,4707",
+                    "@type": "sc:Canvas",
+                    "label": 5
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167790/canvas/p6#xywh=1329,846,5899,4682",
+                    "@type": "sc:Canvas",
+                    "label": 6
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167790/canvas/p7#xywh=1316,834,5899,4769",
+                    "@type": "sc:Canvas",
+                    "label": 7
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167790/canvas/p8#xywh=1366,821,5936,4732",
+                    "@type": "sc:Canvas",
+                    "label": 8
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/uparl/omeka/oa/collections/16/manifest.json",
+                "@label": "偽絳帖 三 [A005936-03]",
+                "@type": "sc:Manifest"
+            }
+        }
+    ]
+}
