@@ -2,48 +2,62 @@ import json
 import urllib.request
 import pandas as pd
 import openpyxl
+import csv
+import uuid
 
-input_url = "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif-img/168120/1987,809,3875,4769/,600/0/default.jpg"
+inputs = []
+input_csv_path = "csv/input.csv"
 
-manifests = ["https://www.dl.ndl.go.jp/api/iiif/2553033/manifest.json",
-             "https://www.dl.ndl.go.jp/api/iiif/2553034/manifest.json",
-             "https://www.dl.ndl.go.jp/api/iiif/2553035/manifest.json",
-             "https://www.dl.ndl.go.jp/api/iiif/2553036/manifest.json",
-             "https://www.dl.ndl.go.jp/api/iiif/2553037/manifest.json",
-             "https://www.dl.ndl.go.jp/api/iiif/2553038/manifest.json",
-             "https://www.dl.ndl.go.jp/api/iiif/2553039/manifest.json",
-             "https://www.dl.ndl.go.jp/api/iiif/2553040/manifest.json",
-             "https://www.dl.ndl.go.jp/api/iiif/2553041/manifest.json",
-             "https://www.dl.ndl.go.jp/api/iiif/2553042/manifest.json",
-             "https://www.dl.ndl.go.jp/api/iiif/2553043/manifest.json",
-             "https://www.dl.ndl.go.jp/api/iiif/2553044/manifest.json"]
+# input_url = ""
+
+with open(input_csv_path, 'r') as f:
+    reader = csv.reader(f)
+    header = next(reader)  # ヘッダーを読み飛ばしたい時
+
+    for row in reader:
+        if len(row) > 0 and row[0] != "":
+            inputs.append(row[0])
+
+manifests = []
+
+input_file = "csv/test2.csv"
+
+with open(input_file, 'r') as f:
+    reader = csv.reader(f)
+    header = next(reader)  # ヘッダーを読み飛ばしたい時
+
+    for row in reader:
+        if len(row) > 0 and row[0] != "":
+            manifests.append(row[0])
 
 table = []
 row = ["input", "manifest", "page", "score", "img"]
 table.append(row)
 
-for i in range(len(manifests)):
+for input_url in inputs:
 
-    print(str(i + 1) + "/" + str(len(manifests)))
+    for i in range(len(manifests)):
 
-    manifest = manifests[i]
+        print(str(i + 1) + "/" + str(len(manifests)))
 
-    url = "http://localhost:5000/find?img_url=" + input_url + "&manifest=" + manifest
+        manifest = manifests[i]
 
-    res = urllib.request.urlopen(url)
-    # json_loads() でPythonオブジェクトに変換
-    data = json.loads(res.read().decode('utf-8'))
+        url = "http://localhost:5000/find?img_url=" + input_url + "&manifest=" + manifest
 
-    row = []
-    arr = data["array"]
-    for j in range(len(arr)):
-        obj = arr[j]
-        img = ""
-        if "img" in obj:
-            img = obj["img"]
-        row = [data["img_url"], data["manifest"], str(j + 1), obj["score"], img]
-        table.append(row)
+        res = urllib.request.urlopen(url)
+        # json_loads() でPythonオブジェクトに変換
+        data = json.loads(res.read().decode('utf-8'))
 
-df = pd.DataFrame(table);
+        row = []
+        arr = data["array"]
+        for j in range(len(arr)):
+            obj = arr[j]
+            img = ""
+            if "img" in obj:
+                img = obj["img"]
+            row = [data["img_url"], data["manifest"], str(j + 1), obj["score"], img]
+            table.append(row)
 
-df.to_excel("data/result.xlsx", index=False, header=False)
+df = pd.DataFrame(table)
+
+df.to_excel(input_file + "_" + str(uuid.uuid1()) + ".xlsx", index=False, header=False)
