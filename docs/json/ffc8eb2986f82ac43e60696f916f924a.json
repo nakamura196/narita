@@ -3,24 +3,19 @@
         "http://iiif.io/api/presentation/2/context.json",
         "http://codh.rois.ac.jp/iiif/curation/1/context.json"
     ],
-    "@id": "https://nakamura196.github.io/narita/json/3cfddad1898281910e0983a68922557f.json",
+    "@id": "https://nakamura196.github.io/narita/json/ffc8eb2986f82ac43e60696f916f924a.json",
     "@type": "cr:Curation",
-    "label": "僞絳帖#05#見尙書帖_(王羲之)@東京大学",
+    "label": "僞絳帖#05#飛白帖_(王羲之)@東京大学",
     "selections": [
         {
-            "@id": "https://nakamura196.github.io/narita/json/3cfddad1898281910e0983a68922557f.json/range1",
+            "@id": "https://nakamura196.github.io/narita/json/ffc8eb2986f82ac43e60696f916f924a.json/range1",
             "@type": "sc:Range",
             "label": "Manual curation by IIIF Curation Viewer",
             "members": [
                 {
-                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167792/canvas/p11#xywh=1329,809,499,4682",
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167792/canvas/p8#xywh=2409,871,1070,4744",
                     "@type": "sc:Canvas",
-                    "label": 11
-                },
-                {
-                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167792/canvas/p12#xywh=5016,858,2150,4707",
-                    "@type": "sc:Canvas",
-                    "label": 12
+                    "label": 8
                 }
             ],
             "within": {

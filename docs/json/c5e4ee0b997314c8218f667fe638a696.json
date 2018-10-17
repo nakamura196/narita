@@ -3,19 +3,19 @@
         "http://iiif.io/api/presentation/2/context.json",
         "http://codh.rois.ac.jp/iiif/curation/1/context.json"
     ],
-    "@id": "https://nakamura196.github.io/narita/json/a67413ccd94d84dc80a0812e5823e416.json",
+    "@id": "https://nakamura196.github.io/narita/json/c5e4ee0b997314c8218f667fe638a696.json",
     "@type": "cr:Curation",
-    "label": "僞絳帖#03#仁祖帖_(王羲之)@東京大学",
+    "label": "僞絳帖#03#筆精帖_(王羲之)@東京大学",
     "selections": [
         {
-            "@id": "https://nakamura196.github.io/narita/json/a67413ccd94d84dc80a0812e5823e416.json/range1",
+            "@id": "https://nakamura196.github.io/narita/json/c5e4ee0b997314c8218f667fe638a696.json/range1",
             "@type": "sc:Range",
             "label": "Manual curation by IIIF Curation Viewer",
             "members": [
                 {
-                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167790/canvas/p17#xywh=5190,858,2013,4720",
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167790/canvas/p14#xywh=2558,821,995,4732",
                     "@type": "sc:Canvas",
-                    "label": 17
+                    "label": 14
                 }
             ],
             "within": {

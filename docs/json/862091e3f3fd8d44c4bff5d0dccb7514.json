@@ -1,0 +1,38 @@
+{
+    "@context": [
+        "http://iiif.io/api/presentation/2/context.json",
+        "http://codh.rois.ac.jp/iiif/curation/1/context.json"
+    ],
+    "@id": "https://nakamura196.github.io/narita/json/862091e3f3fd8d44c4bff5d0dccb7514.json",
+    "@type": "cr:Curation",
+    "label": "僞絳帖#03#東方畫贊_(王羲之)@東京大学",
+    "selections": [
+        {
+            "@id": "https://nakamura196.github.io/narita/json/862091e3f3fd8d44c4bff5d0dccb7514.json/range1",
+            "@type": "sc:Range",
+            "label": "Manual curation by IIIF Curation Viewer",
+            "members": [
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167790/canvas/p9#xywh=1281,821,2766,4720",
+                    "@type": "sc:Canvas",
+                    "label": 9
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167790/canvas/p10#xywh=1304,796,5911,4744",
+                    "@type": "sc:Canvas",
+                    "label": 10
+                },
+                {
+                    "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167790/canvas/p11#xywh=5997,809,1194,4732",
+                    "@type": "sc:Canvas",
+                    "label": 11
+                }
+            ],
+            "within": {
+                "@id": "https://diyhistory.org/uparl/omeka/oa/collections/16/manifest.json",
+                "@label": "偽絳帖 三 [A005936-03]",
+                "@type": "sc:Manifest"
+            }
+        }
+    ]
+}
