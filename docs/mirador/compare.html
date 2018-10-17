@@ -67,7 +67,8 @@
   for(i = 0; i< params.length; i++){
     $.getJSON(params[i], function(json){
       selection = json["selections"][0]
-      canvas_uri = selection["members"][0]["label"]
+      //canvas_uri = selection["members"][0]["label"]
+      canvas_uri = selection["members"][0]["@id"].split("#")[0]
       manifest_uri = selection["within"]["@id"]
 
       var obj = new Object();
