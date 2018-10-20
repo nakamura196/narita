@@ -17,6 +17,30 @@
 
   <script>asset('../');</script>
 
+  <style>
+  table{
+    margin: 0 auto;
+    width: 100%;
+    clear: both;
+    border-collapse: collapse;
+    table-layout: fixed; // ***********add this
+    word-wrap:break-word; // ***********and this
+  }
+  div.dataTables_length {
+    padding-left: 2em;
+  }
+  div.dataTables_length,
+  div.dataTables_filter {
+    padding-top: 0.55em;
+  }
+  .table {
+    padding-top: 2em;
+  }
+  .bottom {
+    padding-top: 2em;
+  }
+  </style>
+
 </head>
 
 <body>
@@ -52,17 +76,6 @@
         </thead>
         <tbody id="resourceListBody">
         </tbody>
-        <tfoot>
-          <tr>
-            <th></th>
-            <th>作品・Work</th>
-            <th>版（法帖）・Edition</th>
-            <th>巻・Volume</th>
-            <th>著者・Author</th>
-            <th>公開機関・Organization</th>
-            <th>画像・Image</th>
-          </tr>
-        </tfoot>
       </table>
     </div>
 
@@ -224,14 +237,15 @@ function search() {
 
 
     // Setup - add a text input to each footer cell
-    $('#table tfoot th').each( function () {
+    $('#table thead th').each( function () {
       var title = $(this).text();
-      $(this).html( '<input type="text" class="form-control" placeholder="'+title+'" />' );
+      $(this).html( title+'<input type="text" class="form-control"/>' );
     } );
 
     // DataTable
     var table = $('#table').DataTable({
-      "iDisplayLength": 25,
+      "dom": '<"top"iflp<"clear">>rt<"bottom"iflp<"clear">>',
+      "iDisplayLength": 100,
       "order": [[1, "asc"], [5, "asc"]]
     });
 
@@ -239,7 +253,7 @@ function search() {
     table.columns().every( function () {
       var that = this;
 
-      $( 'input', this.footer() ).on( 'keyup change', function () {
+      $( 'input', this.header() ).on( 'keyup change', function () {
         if ( that.search() !== this.value ) {
           that
           .search( this.value )
