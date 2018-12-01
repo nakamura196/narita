@@ -73,12 +73,22 @@
       canvas_uri = selection["members"][0]["@id"].split("#")[0]
       manifest_uri = selection["within"]["@id"]
 
+      var area = selection["members"][0]["@id"].split("#")[1].split("=")[1].split(",")
+
       var obj = new Object();
       obj["loadedManifest"] = manifest_uri;
       obj["canvasID"] =  canvas_uri;
       obj["viewType"] = "ImageView";
       obj["id"] = "window_"+i;
-      obj["xywh"] = selection["members"][0]["@id"].split("#")[1].split("=")[1].split(",")
+      obj["windowOptions"] = {
+        "osdBounds": {
+          "x": Number(area[0]),
+          "y": Number(area[1]),
+          "width": Number(area[2]),
+          "height": Number(area[3])
+        }
+      }
+      obj["xywh"] = area
       windowObjects.push(obj);
 
       obj = new Object();
