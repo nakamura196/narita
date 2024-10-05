@@ -19,7 +19,7 @@
                 }
             ],
             "within": {
-                "@id": "https://diyhistory.org/uparl/omeka/oa/collections/47/manifest.json",
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167821/manifest",
                 "@label": "泉州本淳化閣帖 八 [A006099-05]",
                 "@type": "sc:Manifest"
             }

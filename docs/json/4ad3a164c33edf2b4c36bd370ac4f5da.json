@@ -24,7 +24,7 @@
                 }
             ],
             "within": {
-                "@id": "https://diyhistory.org/uparl/omeka/oa/collections/5/manifest.json",
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167779/manifest",
                 "@label": "星鳳楼帖 卯 [A005935-04]",
                 "@type": "sc:Manifest"
             }

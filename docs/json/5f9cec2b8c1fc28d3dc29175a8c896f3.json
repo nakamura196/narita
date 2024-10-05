@@ -19,7 +19,7 @@
                 }
             ],
             "within": {
-                "@id": "https://diyhistory.org/uparl/omeka/oa/collections/42/manifest.json",
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167816/manifest",
                 "@label": "戯鴻堂法書 十六[A006096-16]",
                 "@type": "sc:Manifest"
             }

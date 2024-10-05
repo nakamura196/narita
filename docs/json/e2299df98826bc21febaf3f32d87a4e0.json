@@ -24,7 +24,7 @@
                 }
             ],
             "within": {
-                "@id": "https://diyhistory.org/uparl/omeka/oa/collections/16/manifest.json",
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167790/manifest",
                 "@label": "偽絳帖 三 [A005936-03]",
                 "@type": "sc:Manifest"
             }

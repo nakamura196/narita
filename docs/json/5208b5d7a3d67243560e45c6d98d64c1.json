@@ -34,7 +34,7 @@
                 }
             ],
             "within": {
-                "@id": "https://diyhistory.org/uparl/omeka/oa/collections/49/manifest.json",
+                "@id": "https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/167823/manifest",
                 "@label": "停雲館帖 一[A006100-01]",
                 "@type": "sc:Manifest"
             }
