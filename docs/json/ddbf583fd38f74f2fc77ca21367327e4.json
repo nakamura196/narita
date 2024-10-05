@@ -13,13 +13,13 @@
             "label": "Manual curation by IIIF Curation Viewer",
             "members": [
                 {
-                    "@id": "https://kotenseki.nijl.ac.jp/biblio/100065344/canvas/228#xywh=341,954,2295,3269",
+                    "@id": "https://kokusho.nijl.ac.jp/biblio/100065344/canvas/228#xywh=341,954,2295,3269",
                     "@type": "sc:Canvas",
-                    "label": "https://kotenseki.nijl.ac.jp/biblio/100065344/canvas/228"
+                    "label": "https://kokusho.nijl.ac.jp/biblio/100065344/canvas/228"
                 }
             ],
             "within": {
-                "@id": "https://diyhistory.org/uparl/omeka_o/oa/collections/1/manifest.json",
+                "@id": "https://kokusho.nijl.ac.jp/biblio/100065344/manifest",
                 "@label": "淳化閣帖",
                 "@type": "sc:Manifest"
             }
